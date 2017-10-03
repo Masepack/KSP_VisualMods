@@ -1,0 +1,31 @@
+{
+    "CHANGE_LOG_URL": "https://raw.githubusercontent.com/ihsoft/KIS/master/CHANGELOG.md", 
+    "DOWNLOAD": "http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v131/", 
+    "GITHUB": {
+        "REPOSITORY": "KIS", 
+        "USERNAME": "ihsoft"
+    }, 
+    "KSP_VERSION": {
+        "MAJOR": 1, 
+        "MINOR": 3, 
+        "PATCH": 0
+    }, 
+    "KSP_VERSION_MAX": {
+        "MAJOR": 1, 
+        "MINOR": 3, 
+        "PATCH": 99
+    }, 
+    "KSP_VERSION_MIN": {
+        "MAJOR": 1, 
+        "MINOR": 3, 
+        "PATCH": 0
+    }, 
+    "NAME": "Kerbal Inventory System", 
+    "URL": "https://raw.githubusercontent.com/ihsoft/KIS/master/KIS.version", 
+    "VERSION": {
+        "BUILD": 41490, 
+        "MAJOR": 1, 
+        "MINOR": 7, 
+        "PATCH": 6468
+    }
+}
