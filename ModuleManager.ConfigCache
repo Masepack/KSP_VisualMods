@@ -1,4 +1,4 @@
-patchedNodeCount = 367
+patchedNodeCount = 359
 catEatenCount = 0
 UrlConfig
 {
@@ -3137,666 +3137,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = mumech_MJ2_AR202
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_AR202/part
-	url = MechJeb2/Parts/MechJeb2_AR202/part/mumech_MJ2_AR202
-	PART
-	{
-		name = mumech_MJ2_AR202
-		module = Part
-		author = r4m0n/The_Duck (code) || keptin (part)
-		mesh = model.mu
-		rescaleFactor = 0.75
-		node_attach = 0.0, 0.0, 0.0, 1, 0, 0
-		TechRequired = flightControl
-		entryCost = 15000
-		cost = 750
-		category = Control
-		subcategory = 0
-		title = MechJeb 2 (AR202 case)
-		manufacturer = Anatid Robotics
-		description = A ruggedized version of MechJeb's neural circuits in a radial-mount case.
-		attachRules = 0,1,0,0,0
-		mass = 0.0001
-		thermalMassModifier = 100
-		skinThermalMassModifier = 100
-		dragModelType = default
-		maximum_drag = 0.0
-		minimum_drag = 0.0
-		angularDrag = 0
-		crashTolerance = 6
-		maxTemp = 2900
-		CrewCapacity = 0
-		vesselType = Probe
-		tags = command control autopilot
-		MODULE
-		{
-			name = ModuleCommand
-			minimumCrew = 0
-			RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.005
-			}
-		}
-		MODULE
-		{
-			name = MechJebCore
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
-		}
-		MODULE
-		{
-			name = MechJebAR202
-		}
-		RESOURCE
-		{
-			name = ElectricCharge
-			amount = 5
-			maxAmount = 5
-		}
-		MODULE
-		{
-			name = TweakScale
-			type = free
-			TWEAKSCALEEXPONENTS
-			{
-				name = TweakScale
-				DryCost = 0
-			}
-		}
-		MODULE
-		{
-			name = BuildEngineer
-		}
-		MODULE
-		{
-			name = FlightEngineer
-		}
-	}
-}
-UrlConfig
-{
-	name = mumech_MJ2_AR202_features1
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_AR202/part
-	url = MechJeb2/Parts/MechJeb2_AR202/part/mumech_MJ2_AR202_features1
-	PART
-	{
-		name = mumech_MJ2_AR202_features1
-		module = Part
-		author = r4m0n/The_Duck (code) || keptin (part)
-		mesh = model.mu
-		rescaleFactor = 0.75
-		TechRequired = advFlightControl
-		entryCost = 15000
-		cost = 750
-		category = none
-		subcategory = 0
-		title = MechJeb Features- Maneuver & Translatron
-		manufacturer = Anatid Robotics
-		description = Unlocks the following MechJeb windows: Maneuver Planner, Translatron, Warp Helper, Attitude Adjustment, Thrust Window, RCS Balancer. Once unlocked, all existing MechJeb modules will be automatically upgraded to latest firmware.
-		mass = 0.00001
-		dragModelType = default
-		maximum_drag = 0.0
-		minimum_drag = 0.0
-		angularDrag = 0
-		crashTolerance = 6
-		maxTemp = 2900
-		CrewCapacity = 0
-		vesselType = Probe
-	}
-}
-UrlConfig
-{
-	name = mumech_MJ2_AR202_features2
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_AR202/part
-	url = MechJeb2/Parts/MechJeb2_AR202/part/mumech_MJ2_AR202_features2
-	PART
-	{
-		name = mumech_MJ2_AR202_features2
-		module = Part
-		author = r4m0n/The_Duck (code) || keptin (part)
-		mesh = model.mu
-		rescaleFactor = 0.75
-		TechRequired = fieldScience
-		entryCost = 15000
-		cost = 750
-		category = none
-		subcategory = 0
-		title = MechJeb Features- Rover Autopilot
-		manufacturer = Anatid Robotics
-		description = Unlocks the following MechJeb windows: Rover Autopilot. Once unlocked, all existing MechJeb modules will be automatically upgraded to latest firmware.
-		mass = 0.00001
-		dragModelType = default
-		maximum_drag = 0.0
-		minimum_drag = 0.0
-		angularDrag = 0
-		crashTolerance = 6
-		maxTemp = 2900
-		CrewCapacity = 0
-		vesselType = Probe
-	}
-}
-UrlConfig
-{
-	name = mumech_MJ2_AR202_features3
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_AR202/part
-	url = MechJeb2/Parts/MechJeb2_AR202/part/mumech_MJ2_AR202_features3
-	PART
-	{
-		name = mumech_MJ2_AR202_features3
-		module = Part
-		author = r4m0n/The_Duck (code) || keptin (part)
-		mesh = model.mu
-		rescaleFactor = 0.75
-		TechRequired = unmannedTech
-		entryCost = 15000
-		cost = 750
-		category = none
-		subcategory = 0
-		title = MechJeb Features- Ascent, Landing, Spaceplane
-		manufacturer = Anatid Robotics
-		description = Unlocks the following MechJeb windows: Ascent Autopilot, Landing Autopilot, Spaceplane Guidance. Once unlocked, all existing MechJeb modules will be automatically upgraded to latest firmware.
-		mass = 0.00001
-		dragModelType = default
-		maximum_drag = 0.0
-		minimum_drag = 0.0
-		angularDrag = 0
-		crashTolerance = 6
-		maxTemp = 2900
-		CrewCapacity = 0
-		vesselType = Probe
-	}
-}
-UrlConfig
-{
-	name = mumech_MJ2_AR202_features4
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_AR202/part
-	url = MechJeb2/Parts/MechJeb2_AR202/part/mumech_MJ2_AR202_features4
-	PART
-	{
-		name = mumech_MJ2_AR202_features4
-		module = Part
-		author = r4m0n/The_Duck (code) || keptin (part)
-		mesh = model.mu
-		rescaleFactor = 0.75
-		TechRequired = advUnmanned
-		entryCost = 15000
-		cost = 750
-		category = none
-		subcategory = 0
-		title = MechJeb Features- Rendezvous & Docking
-		manufacturer = Anatid Robotics
-		description = Unlocks the following MechJeb windows: Rendezvous Guidance, Rendezvous Autopilot, Docking Autopilot. Once unlocked, all existing MechJeb modules will be automatically upgraded to latest firmware.
-		mass = 0.00001
-		dragModelType = default
-		maximum_drag = 0.0
-		minimum_drag = 0.0
-		angularDrag = 0
-		crashTolerance = 6
-		maxTemp = 2900
-		CrewCapacity = 0
-		vesselType = Probe
-	}
-}
-UrlConfig
-{
-	name = MJPropellant
-	type = RESOURCE_DEFINITION
-	parentUrl = MechJeb2/Parts/MechJeb2_Pod/part
-	url = MechJeb2/Parts/MechJeb2_Pod/part/MJPropellant
-	RESOURCE_DEFINITION
-	{
-		name = MJPropellant
-		density = 0.004
-		flowMode = NO_FLOW
-		transfer = NONE
-	}
-}
-UrlConfig
-{
-	name = mumech_MJ2_Pod
-	type = PART
-	parentUrl = MechJeb2/Parts/MechJeb2_Pod/part
-	url = MechJeb2/Parts/MechJeb2_Pod/part/mumech_MJ2_Pod
-	PART
-	{
-		name = mumech_MJ2_Pod
-		module = Part
-		author = r4m0n/The_Duck (code) || CardBoardBoxProcessor (model)
-		mesh = model.mu
-		node_stack_bottom = 0.0, -0.6010774, 0.0, 0.0, -1.0, 0.0, 1
-		fx_exhaustFlame_white_tiny = 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, running
-		sound_vent_medium = engage
-		sound_rocket_mini = running
-		sound_vent_soft = disengage
-		TechRequired = automation
-		entryCost = 250000
-		cost = 35000
-		category = none
-		subcategory = 0
-		title = Mechanical Jeb - Pod version 2.0
-		manufacturer = Anatid Robotics / Multiversal Mechatronics
-		description = After many years spent on research, our scientists still couldn't explain why Jebediah Kerman was such a good pilot, so we decided to make a mechanical copy of his brain to help pilot our ships. This is an unmanned pod version of MechJeb, designed to save the life of the brave Kerbals who volunteer to test new crafts.
-		attachRules = 1,0,1,1,1
-		mass = 2
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.1
-		angularDrag = 2
-		crashTolerance = 10
-		maxTemp = 3400
-		vesselType = Probe
-		stagingIcon = COMMAND_POD
-		CrewCapacity = 0
-		tags = cmg command control fly gyro moment react stab steer torque autopilot rcs sas
-		MODULE
-		{
-			name = ModuleCommand
-			minimumCrew = 0
-			RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.005
-			}
-		}
-		MODULE
-		{
-			name = ModuleReactionWheel
-			PitchTorque = 6
-			YawTorque = 6
-			RollTorque = 6
-			RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.15
-			}
-		}
-		MODULE
-		{
-			name = ModuleSAS
-		}
-		MODULE
-		{
-			name = MechJebCore
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
-		}
-		MODULE
-		{
-			name = MechJebPod
-		}
-		RESOURCE
-		{
-			name = ElectricCharge
-			amount = 10
-			maxAmount = 10
-		}
-		MODULE
-		{
-			name = ModuleGenerator
-			isAlwaysActive = true
-			OUTPUT_RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.25
-			}
-		}
-		MODULE
-		{
-			name = ModuleRCS
-			thrusterTransformName = RCSthruster
-			thrusterPower = 4
-			resourceName = MJPropellant
-			fxOffset = 0, 0, 0
-			atmosphereCurve
-			{
-				key = 0 260
-				key = 1 100
-			}
-		}
-		RESOURCE
-		{
-			name = MJPropellant
-			amount = 1000
-			maxAmount = 1000
-		}
-		MODULE
-		{
-			name = ModuleEngines
-			thrustVectorTransformName = engine
-			exhaustDamage = False
-			ignitionThreshold = 0.1
-			minThrust = 0
-			maxThrust = 100
-			heatProduction = 300
-			fxOffset = 0, 0, 7
-			PROPELLANT
-			{
-				name = MJPropellant
-				ratio = 1
-				DrawGauge = True
-			}
-			atmosphereCurve
-			{
-				key = 0 260
-				key = 1 100
-			}
-		}
-		MODULE
-		{
-			name = ModuleGimbal
-			gimbalTransformName = engine
-			gimbalRange = 1
-			useGimbalResponseSpeed = true
-			GimbalResponseSpeed = 0.1
-		}
-		MODULE
-		{
-			name = ModuleJettison
-			jettisonName = adapter
-			bottomNodeName = bottom
-			isFairing = True
-			jettisonedObjectMass = 0.1
-			jettisonForce = 5
-			jettisonDirection = 0 0 1
-		}
-		MODULE
-		{
-			name = TweakScale
-			type = stack
-			defaultScale = 1.25
-			TWEAKSCALEEXPONENTS
-			{
-				mass = 2
-			}
-			TWEAKSCALEEXPONENTS
-			{
-				name = TweakScale
-				DryCost = -1.5
-			}
-		}
-		MODULE
-		{
-			name = BuildEngineer
-		}
-		MODULE
-		{
-			name = FlightEngineer
-		}
-	}
-}
-UrlConfig
-{
 	name = DockingPortAlignment
 	type = DockingPortAlignment
 	parentUrl = NavyFish/Plugins/Docking Port Alignment Indicator/DPAI Settings
@@ -3804,1194 +3144,6 @@ UrlConfig
 	DockingPortAlignment
 	{
 		forceStockAppLauncher = false
-	}
-}
-UrlConfig
-{
-	name = Scatterer_config
-	type = Scatterer_config
-	parentUrl = scatterer/config/config
-	url = scatterer/config/config/Scatterer_config
-	Scatterer_config
-	{
-		autosavePlanetSettingsOnSceneChange = True
-		disableAmbientLight = True
-		integrateWithEVEClouds = True
-		mainMenuWindowLocation = 0,0
-		inGameWindowLocation = 174,134
-		nearClipPlane = 0.5
-		useAlternateShaderSQRT = True
-		forceDisableDefaultDepthBuffer = False
-		useOceanShaders = True
-		oceanSkyReflections = True
-		oceanRefraction = True
-		oceanPixelLights = False
-		drawAtmoOnTopOfClouds = False
-		oceanCloudShadows = True
-		fullLensFlareReplacement = True
-		showMenuOnStart = True
-		scrollSectionHeight = 350
-		useGodrays = True
-		useEclipses = True
-		useRingShadows = True
-		terrainShadows = True
-		shadowNormalBias = 0.720000029
-		shadowBias = 0.5
-		shadowsDistance = 50000
-		guiModifierKey1String = LeftAlt
-		guiModifierKey2String = RightAlt
-		guiKey1String = F10
-		guiKey2String = F11
-		m_fourierGridSize = 128
-	}
-}
-UrlConfig
-{
-	name = Scatterer_planetsList
-	type = Scatterer_planetsList
-	parentUrl = scatterer/config/planetsList
-	url = scatterer/config/planetsList/Scatterer_planetsList
-	Scatterer_planetsList
-	{
-		scattererCelestialBodies
-		{
-			Item
-			{
-				celestialBodyName = Kerbin
-				transformName = Kerbin
-				loadDistance = 100000000
-				unloadDistance = 200000000
-				hasOcean = True
-				usesCloudIntegration = True
-				mainSunCelestialBody = Sun
-				eclipseCasters
-				{
-					Item = Mun
-					Item = Minmus
-				}
-				planetshineSources
-				{
-					Item
-					{
-						bodyName = Mun
-						color = 1,1,1
-						intensity = 0.0799999982
-						isSun = False
-					}
-				}
-			}
-			Item
-			{
-				celestialBodyName = Duna
-				transformName = Duna
-				loadDistance = 100000000
-				unloadDistance = 200000000
-				hasOcean = False
-				usesCloudIntegration = True
-				mainSunCelestialBody = Sun
-				eclipseCasters
-				{
-					Item = Ike
-				}
-			}
-			Item
-			{
-				celestialBodyName = Laythe
-				transformName = Laythe
-				loadDistance = 300000000
-				unloadDistance = 500000000
-				hasOcean = True
-				usesCloudIntegration = True
-				mainSunCelestialBody = Sun
-				eclipseCasters
-				{
-					Item = Jool
-					Item = Vall
-					Item = Tylo
-					Item = Bop
-					Item = Pol
-				}
-				planetshineSources
-				{
-					Item
-					{
-						bodyName = Jool
-						color = 0.600000024,1,0.400000006
-						intensity = 0.25
-						isSun = False
-					}
-				}
-			}
-			Item
-			{
-				celestialBodyName = Jool
-				transformName = Jool
-				loadDistance = 500000000
-				unloadDistance = 1E+09
-				hasOcean = False
-				usesCloudIntegration = True
-				mainSunCelestialBody = Sun
-				eclipseCasters
-				{
-					Item = Laythe
-					Item = Vall
-					Item = Tylo
-					Item = Bop
-					Item = Pol
-				}
-			}
-			Item
-			{
-				celestialBodyName = Eve
-				transformName = Eve
-				loadDistance = 300000000
-				unloadDistance = 500000000
-				hasOcean = True
-				usesCloudIntegration = True
-				mainSunCelestialBody = Sun
-				eclipseCasters
-				{
-					Item = Gilly
-				}
-			}
-		}
-		celestialLightSourcesData
-		{
-			Item
-			{
-				bodyName = Mun
-				color = 1,1,1
-				intensity = 1
-				isSun = False
-				localRange = 1
-				scaledRange = 1
-				fadeRadius = 1
-			}
-		}
-		sunflares
-		{
-			Item = Sun
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_atmosphere
-	type = Scatterer_atmosphere
-	parentUrl = scatterer/config/Planets/Duna/atmo
-	url = scatterer/config/Planets/Duna/atmo/Scatterer_atmosphere
-	Scatterer_atmosphere
-	{
-		Atmo
-		{
-			name = Duna
-			displayInterpolatedVariables = True
-			experimentalAtmoScale = 3
-			mapExtinctionMultiplier = 1.5
-			mapExtinctionTint = -0.300000012
-			mapSkyExtinctionRimFade = 1
-			mapGroundExtinctionFade = 0
-			_mapExtinctionScatterIntensity = 1
-			drawSkyOverClouds = False
-			drawOverCloudsAltitude = 100000
-			mapExposure = 0.100000001
-			mapSkyRimExposure = 0.0599999987
-			cloudColorMultiplier = 2
-			cloudScatteringMultiplier = 0.5
-			cloudSkyIrradianceMultiplier = 0.400000006
-			volumetricsColorMultiplier = 1
-			mapAlphaGlobal = 1
-			Rg = 320000
-			Rt = 324528.313
-			RL = 324603.813
-			atmosphereGlobalScale = 1
-			EVEIntegration_preserveCloudColors = True
-			AVERAGE_GROUND_REFLECTANCE = 0.100000001
-			HR = 10
-			HM = 1.20000005
-			BETA_MSca = 0.00400000019,0.00400000019,0.00400000019
-			m_betaR = 0.0149999997,0.00650000013,0.00270000007
-			m_mieG = 0.850000024
-			rimBlend = 20
-			rimpower = 600
-			specR = 2
-			specG = 2
-			specB = 2
-			shininess = 50
-			assetPath = scatterer/config/Planets/Duna/Atmo
-			configPoints
-			{
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0.25
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.0149999997
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 0.600000024
-					skyExtinctionTint = 0
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 100
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 0
-				}
-				Item
-				{
-					altitude = 5000
-					skyAlpha = 1
-					skyExposure = 0.25
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.0599999987
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 0.75
-					skyExtinctionTint = 0
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 800
-					edgeThreshold = 0.300000012
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 0
-				}
-				Item
-				{
-					altitude = 55000
-					skyAlpha = 1
-					skyExposure = 0.100000001
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.400000006
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 800
-					edgeThreshold = 0.99000001
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 0
-				}
-				Item
-				{
-					altitude = 160000
-					skyAlpha = 1
-					skyExposure = 0.100000001
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 2.4000001
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1.5
-					skyExtinctionTint = -0.300000012
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 0
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_atmosphere
-	type = Scatterer_atmosphere
-	parentUrl = scatterer/config/Planets/Eve/atmo
-	url = scatterer/config/Planets/Eve/atmo/Scatterer_atmosphere
-	Scatterer_atmosphere
-	{
-		Atmo
-		{
-			name = Eve
-			displayInterpolatedVariables = True
-			experimentalAtmoScale = 2.5
-			mapExtinctionMultiplier = 0.699999988
-			mapExtinctionTint = 1.5
-			mapSkyExtinctionRimFade = 1
-			mapGroundExtinctionFade = 0
-			_mapExtinctionScatterIntensity = 3
-			drawSkyOverClouds = False
-			drawOverCloudsAltitude = 100000
-			mapExposure = 0.100000001
-			mapSkyRimExposure = 0.0900000036
-			cloudColorMultiplier = 3
-			cloudScatteringMultiplier = 0.119999997
-			cloudSkyIrradianceMultiplier = 0.0299999993
-			volumetricsColorMultiplier = 3
-			mapAlphaGlobal = 1
-			Rg = 700000
-			Rt = 710103.688
-			RL = 711380.5
-			atmosphereGlobalScale = 1
-			EVEIntegration_preserveCloudColors = False
-			AVERAGE_GROUND_REFLECTANCE = 0.100000001
-			HR = 10
-			HM = 1.20000005
-			BETA_MSca = 0.00400000019,0.00400000019,0.00400000019
-			m_betaR = 0.0577999987,0.0235399995,0.0734400004
-			m_mieG = 0.850000024
-			rimBlend = 20
-			rimpower = 600
-			specR = 50
-			specG = 50
-			specB = 50
-			shininess = 30
-			assetPath = scatterer/config/Planets/Eve/Atmo
-			configPoints
-			{
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0.200000003
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 1
-					postProcessDepth = 0
-					postProcessExposure = 0.200000003
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 2
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0.200000003
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 1
-					postProcessDepth = 0
-					postProcessExposure = 0.200000003
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 2
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 5000
-					skyAlpha = 1
-					skyExposure = 0.200000003
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 1
-					postProcessDepth = 0
-					postProcessExposure = 0.200000003
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 2
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 55000
-					skyAlpha = 1
-					skyExposure = 0.150000006
-					skyRimExposure = 0.180000007
-					postProcessAlpha = 1
-					postProcessDepth = 0.100000001
-					postProcessExposure = 0.180000007
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 2
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 100000
-					skyAlpha = 1
-					skyExposure = 0.150000006
-					skyRimExposure = 0.180000007
-					postProcessAlpha = 1
-					postProcessDepth = 0.100000001
-					postProcessExposure = 0.180000007
-					skyExtinctionMultiplier = 0.699999988
-					skyExtinctionTint = 1.5
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 2
-					_extinctionScatterIntensity = 3
-				}
-				Item
-				{
-					altitude = 110000
-					skyAlpha = 1
-					skyExposure = 0.119999997
-					skyRimExposure = 0.180000007
-					postProcessAlpha = 1
-					postProcessDepth = 0.100000001
-					postProcessExposure = 0.180000007
-					skyExtinctionMultiplier = 0.699999988
-					skyExtinctionTint = 1.5
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 3
-				}
-				Item
-				{
-					altitude = 140000
-					skyAlpha = 1
-					skyExposure = 0.119999997
-					skyRimExposure = 0.119999997
-					postProcessAlpha = 0
-					postProcessDepth = 0.5
-					postProcessExposure = 0
-					skyExtinctionMultiplier = 0.699999988
-					skyExtinctionTint = 1.5
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 3
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_ocean
-	type = Scatterer_ocean
-	parentUrl = scatterer/config/Planets/Eve/ocean
-	url = scatterer/config/Planets/Eve/ocean/Scatterer_ocean
-	Scatterer_ocean
-	{
-		Ocean
-		{
-			name = Eve
-			m_foamAnsio = 9
-			m_foamMipMapBias = -2
-			m_whiteCapStr = -5.5
-			shoreFoam = 0
-			m_farWhiteCapStr = -5.5
-			choppynessMultiplier = 0.699999988
-			AMP = 1
-			m_ansio = 2
-			m_windSpeed = 5
-			m_omega = 1
-			m_varianceSize = 4
-			m_oceanUpwellingColor = 0,0,0
-			m_UnderwaterColor = 0,9.99999975E-05,0
-			m_oceanLevel = 0
-			m_zmin = 20000
-			m_resolution = 4
-			MAX_VERTS = 65000
-			oceanScale = 1
-			oceanAlpha = 0.920000017
-			alphaRadius = 1000
-			transparencyDepth = 5
-			darknessDepth = 20
-			refractionIndex = 1.75
-			fakeOceanAltitude = 160000
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_atmosphere
-	type = Scatterer_atmosphere
-	parentUrl = scatterer/config/Planets/Jool/atmo
-	url = scatterer/config/Planets/Jool/atmo/Scatterer_atmosphere
-	Scatterer_atmosphere
-	{
-		Atmo
-		{
-			name = Jool
-			displayInterpolatedVariables = True
-			experimentalAtmoScale = 3
-			mapExtinctionMultiplier = 1
-			mapExtinctionTint = 0.699999988
-			mapSkyExtinctionRimFade = 1
-			mapGroundExtinctionFade = 0
-			_mapExtinctionScatterIntensity = 1
-			drawSkyOverClouds = True
-			drawOverCloudsAltitude = 100000
-			mapExposure = 0.0700000003
-			mapSkyRimExposure = 0.0700000003
-			cloudColorMultiplier = 2
-			cloudScatteringMultiplier = 0.0500000007
-			cloudSkyIrradianceMultiplier = 0.300000012
-			volumetricsColorMultiplier = 1
-			mapAlphaGlobal = 1
-			Rg = 6000000
-			Rt = 6084904
-			RL = 6086321
-			atmosphereGlobalScale = 1
-			EVEIntegration_preserveCloudColors = True
-			AVERAGE_GROUND_REFLECTANCE = 0.100000001
-			HR = 10
-			HM = 1.20000005
-			BETA_MSca = 0.00400000019,0.00400000019,0.00400000019
-			m_betaR = 0.00579999993,0.0335000008,0.0131000001
-			m_mieG = 0.850000024
-			rimBlend = -20
-			rimpower = 100
-			specR = 1
-			specG = 1
-			specB = 1
-			shininess = 10
-			assetPath = scatterer/config/Planets/Jool/Atmo
-			configPoints
-			{
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0.0700000003
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.0599999987
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 0
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 5000
-					skyAlpha = 1
-					skyExposure = 0.0700000003
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.100000001
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 0
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 55000
-					skyAlpha = 1
-					skyExposure = 0.0700000003
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 0.800000012
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 0
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 160000
-					skyAlpha = 1
-					skyExposure = 0.0700000003
-					skyRimExposure = 0.0700000003
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 2.4000001
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 0.699999988
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 500000
-					skyAlpha = 1
-					skyExposure = 0.0700000003
-					skyRimExposure = 0.0799999982
-					postProcessAlpha = 0.779999971
-					postProcessDepth = 2.4000001
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 0.699999988
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 0
-					edgeThreshold = 0
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_atmosphere
-	type = Scatterer_atmosphere
-	parentUrl = scatterer/config/Planets/Kerbin/atmo
-	url = scatterer/config/Planets/Kerbin/atmo/Scatterer_atmosphere
-	Scatterer_atmosphere
-	{
-		Atmo
-		{
-			name = Kerbin
-			displayInterpolatedVariables = True
-			experimentalAtmoScale = 2
-			mapExtinctionMultiplier = 0.899999976
-			mapExtinctionTint = 1
-			mapSkyExtinctionRimFade = 1
-			mapGroundExtinctionFade = 0
-			_mapExtinctionScatterIntensity = 1
-			drawSkyOverClouds = True
-			drawOverCloudsAltitude = 100000
-			mapExposure = 0.0799999982
-			mapSkyRimExposure = 0.0799999982
-			cloudColorMultiplier = 3
-			cloudScatteringMultiplier = 0.200000003
-			cloudSkyIrradianceMultiplier = 0.0500000007
-			volumetricsColorMultiplier = 1
-			mapAlphaGlobal = 1
-			Rg = 600000
-			Rt = 608490.375
-			RL = 608632.125
-			atmosphereGlobalScale = 1
-			EVEIntegration_preserveCloudColors = False
-			AVERAGE_GROUND_REFLECTANCE = 0.100000001
-			HR = 10
-			HM = 1.20000005
-			BETA_MSca = 0.00400000019,0.00400000019,0.00400000019
-			m_betaR = 0.00579999993,0.0135000004,0.0331000015
-			m_mieG = 0.779999971
-			rimBlend = 20
-			rimpower = 600
-			specR = 50
-			specG = 50
-			specB = 50
-			shininess = 75
-			assetPath = scatterer/config/Planets/Kerbin/Atmo
-			configPoints
-			{
-				Item
-				{
-					altitude = 200
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.0799999982
-					postProcessExposure = 0.200000003
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0.0120000001
-					_Post_Extinction_Tint = 0.600000024
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.100000001
-					postProcessExposure = 0.200000003
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.300000012
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0.600000024
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 5000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.129999995
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0.600000024
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 55000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.25
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.200000003
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0.600000024
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 100000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.129999995
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.5
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 0
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0.600000024
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 0.5
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 160000
-					skyAlpha = 1
-					skyExposure = 0.0799999982
-					skyRimExposure = 0.0799999982
-					postProcessAlpha = 0
-					postProcessDepth = 0.5
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_ocean
-	type = Scatterer_ocean
-	parentUrl = scatterer/config/Planets/Kerbin/ocean
-	url = scatterer/config/Planets/Kerbin/ocean/Scatterer_ocean
-	Scatterer_ocean
-	{
-		Ocean
-		{
-			name = Kerbin
-			m_foamAnsio = 9
-			m_foamMipMapBias = -2
-			m_whiteCapStr = 0.100000001
-			shoreFoam = 1
-			m_farWhiteCapStr = -0.200000003
-			choppynessMultiplier = 1
-			AMP = 1
-			m_ansio = 2
-			m_windSpeed = 5
-			m_omega = 0.839999974
-			m_varianceSize = 4
-			m_oceanUpwellingColor = 0.00999999978,0.075000003,0.0799999982
-			m_UnderwaterColor = 0.100000001,0.75,0.800000012
-			m_oceanLevel = 0
-			m_zmin = 20000
-			m_resolution = 4
-			MAX_VERTS = 65000
-			oceanScale = 1
-			oceanAlpha = 0.949999988
-			alphaRadius = 1400
-			transparencyDepth = 100
-			darknessDepth = 1000
-			refractionIndex = 1.33000004
-			fakeOceanAltitude = 160000
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_atmosphere
-	type = Scatterer_atmosphere
-	parentUrl = scatterer/config/Planets/Laythe/atmo
-	url = scatterer/config/Planets/Laythe/atmo/Scatterer_atmosphere
-	Scatterer_atmosphere
-	{
-		Atmo
-		{
-			name = Laythe
-			displayInterpolatedVariables = True
-			experimentalAtmoScale = 1.5
-			mapExtinctionMultiplier = 1
-			mapExtinctionTint = 1
-			mapSkyExtinctionRimFade = 0
-			mapGroundExtinctionFade = 0
-			_mapExtinctionScatterIntensity = 2
-			drawSkyOverClouds = True
-			drawOverCloudsAltitude = 100000
-			mapExposure = 0.0799999982
-			mapSkyRimExposure = 0.0799999982
-			cloudColorMultiplier = 4
-			cloudScatteringMultiplier = 0.200000003
-			cloudSkyIrradianceMultiplier = 0.119999997
-			volumetricsColorMultiplier = 1
-			mapAlphaGlobal = 1
-			Rg = 500000
-			Rt = 507075.313
-			RL = 507193.406
-			atmosphereGlobalScale = 1
-			EVEIntegration_preserveCloudColors = False
-			AVERAGE_GROUND_REFLECTANCE = 0.100000001
-			HR = 10
-			HM = 1.20000005
-			BETA_MSca = 0.0540000014,0.00400000019,0.00400000019
-			m_betaR = 0.00579999993,0.0135000004,0.0430999994
-			m_mieG = 0.5
-			rimBlend = 20
-			rimpower = 600
-			specR = 40
-			specG = 40
-			specB = 40
-			shininess = 50
-			assetPath = scatterer/config/Planets/Laythe/Atmo
-			configPoints
-			{
-				Item
-				{
-					altitude = 200
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.0599999987
-					postProcessExposure = 0.219999999
-					skyExtinctionMultiplier = 0.600000024
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0.0240000002
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 1000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.0799999982
-					postProcessExposure = 0.219999999
-					skyExtinctionMultiplier = 0.600000024
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.100000001
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 5000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.0799999982
-					postProcessExposure = 0.219999999
-					skyExtinctionMultiplier = 0.850000024
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 55000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.200000003
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 1
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 0.5
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 100000
-					skyAlpha = 1
-					skyExposure = 0
-					skyRimExposure = 0.200000003
-					postProcessAlpha = 0.949999988
-					postProcessDepth = 0.200000003
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 1
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 1
-					postExtinctionMultiplier = 1
-					_GlobalOceanAlpha = 1
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 140000
-					skyAlpha = 1
-					skyExposure = 0.00999999978
-					skyRimExposure = 0.119999997
-					postProcessAlpha = 0.600000024
-					postProcessDepth = 0.200000003
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0.300000012
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 1
-				}
-				Item
-				{
-					altitude = 160000
-					skyAlpha = 1
-					skyExposure = 0.100000001
-					skyRimExposure = 0.100000001
-					postProcessAlpha = 0
-					postProcessDepth = 0.5
-					postProcessExposure = 0.230000004
-					skyExtinctionMultiplier = 1
-					skyExtinctionTint = 1
-					skyextinctionRimFade = 0
-					skyextinctionGroundFade = 0
-					openglThreshold = 10
-					edgeThreshold = 1
-					viewdirOffset = 0
-					_Post_Extinction_Tint = 0
-					postExtinctionMultiplier = 0
-					_GlobalOceanAlpha = 0
-					_extinctionScatterIntensity = 2
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_ocean
-	type = Scatterer_ocean
-	parentUrl = scatterer/config/Planets/Laythe/ocean
-	url = scatterer/config/Planets/Laythe/ocean/Scatterer_ocean
-	Scatterer_ocean
-	{
-		Ocean
-		{
-			name = Laythe
-			m_foamAnsio = 9
-			m_foamMipMapBias = -2
-			m_whiteCapStr = 0.200000003
-			shoreFoam = 1.20000005
-			m_farWhiteCapStr = -0.180000007
-			choppynessMultiplier = 1
-			AMP = 1
-			m_ansio = 2
-			m_windSpeed = 5
-			m_omega = 0.839999974
-			m_varianceSize = 4
-			m_oceanUpwellingColor = 0.00100000005,0.00389999989,0.0187800005
-			m_UnderwaterColor = 0,0.5,0.600000024
-			m_oceanLevel = 0
-			m_zmin = 20000
-			m_resolution = 4
-			MAX_VERTS = 65000
-			oceanScale = 1
-			oceanAlpha = 0.949999988
-			alphaRadius = 1000
-			transparencyDepth = 60
-			darknessDepth = 1000
-			refractionIndex = 1.33000004
-			fakeOceanAltitude = 160000
-		}
-	}
-}
-UrlConfig
-{
-	name = Scatterer_sunflare
-	type = Scatterer_sunflare
-	parentUrl = scatterer/config/Sunflares/Sun
-	url = scatterer/config/Sunflares/Sun/Scatterer_sunflare
-	Scatterer_sunflare
-	{
-		Sun
-		{
-			assetPath = scatterer/config/Sunflares/Sun
-			flareSettings = 0.45,1,0.85
-			spikesSettings = 0.6,1,1
-			sunGlareFadeDistance = 250000
-			ghostFadeDistance = 13500000
-			ghost1SettingsList1
-			{
-				Item = 0.54,0.65,2.3,0.5
-				Item = 0.54,1,6,0.7
-			}
-			ghost1SettingsList2
-			{
-			}
-			ghost2SettingsList1
-			{
-				Item = 0.135,1,3,0.9
-				Item = 0.054,1,8,1.1
-				Item = 0.054,1,4,1.3
-				Item = 0.054,1,5,1.5
-			}
-			ghost2SettingsList2
-			{
-			}
-			ghost3SettingsList1
-			{
-			}
-			ghost3SettingsList2
-			{
-			}
-		}
 	}
 }
 UrlConfig
@@ -8455,7 +6607,7 @@ UrlConfig
 	url = Squad/Controls/Azerty/EVA_Lights
 	EVA_Lights
 	{
-		primary = L
+		primary = U
 		secondary = None
 		group = 268435456
 		modeMask = -1
@@ -10507,7 +8659,7 @@ UrlConfig
 	url = Squad/Controls/Dvorak/EVA_Lights
 	EVA_Lights
 	{
-		primary = N
+		primary = G
 		secondary = None
 		group = 268435456
 		modeMask = -1
@@ -12298,7 +10450,7 @@ UrlConfig
 	url = Squad/Controls/Qwerty/EVA_Lights
 	EVA_Lights
 	{
-		primary = L
+		primary = U
 		secondary = None
 		group = 268435456
 		modeMask = -1
@@ -14723,7 +12875,7 @@ UrlConfig
 	url = Squad/Controls/Qwertz/EVA_Lights
 	EVA_Lights
 	{
-		primary = L
+		primary = U
 		secondary = None
 		group = 268435456
 		modeMask = -1
@@ -15459,7 +13611,7 @@ Situational Modifier: <<1>>
 			#autoLOC_125784 = <color=orange>No other valid parts to attach by in the current selection</color>
 			#autoLOC_125798 = Select a part to Place
 			#autoLOC_127810 = New Craft
-			#autoLOC_127865 = <<1>>' already exists. Do you want to overwrite it?
+			#autoLOC_127865 = <<1>> already exists. Do you want to overwrite it?
 			#autoLOC_127866 = Confirm File Overwrite
 			#autoLOC_127867 = <color=orange>Overwrite</color>
 			#autoLOC_127918 = Leave <<1>>
@@ -15905,7 +14057,7 @@ Currently, this is only supported on the Windows version of KSP.
 			#autoLOC_149762 = SM3 Terrain Shaders:
 			#autoLOC_149780 = Terrain Scatters:
 			#autoLOC_149788 = Scatter Density:
-			#autoLOC_149800 = <size=10><color=yellow>Scenery settings may require a game restart to take effect.</color></size>
+			#autoLOC_149800 = Scenery settings may require a game restart to take effect.
 			#autoLOC_149804 = RENDERING
 			#autoLOC_149808 = Render Quality Level:
 			#autoLOC_149820 = Texture Quality:
@@ -16959,9 +15111,9 @@ Spd: <<1>>m/s to <<2>>m/s
 			#autoLOC_272659 = \u0020in sub-orbit of\u0020
 			#autoLOC_272666 = \u0020using a single vessel.
 			#autoLOC_272675 = Complete the\u0020
-			#autoLOC_272682 = Grand
-			#autoLOC_272685 = Supreme
-			#autoLOC_272688 = Ultimate
+			#autoLOC_272682 = Grand\u0020
+			#autoLOC_272685 = Supreme\u0020
+			#autoLOC_272688 = Ultimate\u0020
 			#autoLOC_272705 = Course
 			#autoLOC_272708 = Rally
 			#autoLOC_272711 = Voyage
@@ -17400,7 +15552,7 @@ Astronaut Complex upgrade required.
 			#autoLOC_296538 = What possible purpose could it serve?
 			#autoLOC_296540 = When could this have been created?
 			#autoLOC_296780 = World First Milestones
-			#autoLOC_296834 = <color= <<1>>><<2>>  <<3>> </color>
+			#autoLOC_296834 = <color=<<1>>><<2>>  <<3>> </color>
 			#autoLOC_297133 = an abandoned space center
 			#autoLOC_297134 = an abandoned island airfield
 			#autoLOC_297135 = a vessel of unknown origin
@@ -17449,7 +15601,7 @@ Astronaut Complex upgrade required.
 			#autoLOC_298640 = You have buzzed the tower at the space center!
 			#autoLOC_299393 = <color=orange>Not enough <<1>> to research this node.</color>
 			#autoLOC_299404 = Cannot research technologies over <<1>> Science at this level.
-			#autoLOC_300432 = Recovery of a vessel returned from <<1>> orbit
+			#autoLOC_300432 = Recovery of a vessel returned from <<1>> orbit.
 			#autoLOC_300435 = Recovery of a vessel after a sub-orbital flight.
 			#autoLOC_300438 = Recovery of a vessel that survived a flight.
 			#autoLOC_300831 = <color=orange>No response from R&D... No Science Added.</color>
@@ -17727,7 +15879,7 @@ You can check how close your encounter will be if you mouse over the color-match
 
 One final word of warning though: when executing this kind of precision maneuver, try to leave as little deltaV remaining as possible or the end result could vary greatly from what you had planned.
 
-We will not proceed until the intercept is within tolerances needed for this tutorial--if you don't get it after one maneuver, plot and excute another one a bit further ahead and so on until your final intercept separation is less than 100 kilometers.
+We will not proceed until the intercept is within tolerances needed for this tutorial--if you don't get it after one maneuver, plot and execute another one a bit further ahead and so on until your final intercept separation is less than 100 kilometers.
 			#autoLOC_308769 = Rendezvous - Fine Tune
 			#autoLOC_308776 = Good job. You're now on an orbit similar to but lower than the asteroid's. Keep it targeted and experiment with your maneuver nodes until you have a closest-approach distance of less than 10 kilometers, then execute the burn and wait for that encounter.
 
@@ -18887,7 +17039,7 @@ Speed: <<3>> m/s
 			#autoLOC_316831 = <color=green>THROTTLE DOWN</color>
 			#autoLOC_316832 = <color=red>THROTTLE UP</color>
 			#autoLOC_316863 = Final Descent Part 1
-			#autoLOC_316871 = Almost there!Now you're going to carefully lower your velocity down to zero as you descend. Keep the descent rate equal to your height divided by 10, and keep a look out for a nice place to land!
+			#autoLOC_316871 = Almost there! Now you're going to carefully lower your velocity down to zero as you descend. Keep the descent rate equal to your height divided by 10, and keep a look out for a nice place to land!
 			#autoLOC_316876 = Altitude above terrain: <<1>> m
 Vertical Speed: <<2>> m/s
 Speed: <<3>> m/s
@@ -19527,11 +17679,11 @@ Inactive until: <<1>>
 			#autoLOC_453141 = Deleting this category will delete all subcategories. Are you sure you want to delete?
 			#autoLOC_453153 = This subcategory has parts assigned to it. Are you sure you want to delete?
 			#autoLOC_453158 = This subcategory has subassemblies assigned to it. Are you sure you want to delete?
-			#autoLOC_453547 = Filter by function
+			#autoLOC_453547 = Filter by Function
 			#autoLOC_453549 = Pods
-			#autoLOC_453552 = Fuel tanks
+			#autoLOC_453552 = Fuel Tanks
 			#autoLOC_453555 = Engines
-			#autoLOC_453558 = Command and control
+			#autoLOC_453558 = Command and Control
 			#autoLOC_453561 = Structural
 			#autoLOC_453564 = Coupling
 			#autoLOC_453567 = Payload
@@ -19544,10 +17696,10 @@ Inactive until: <<1>>
 			#autoLOC_453588 = Utility
 			#autoLOC_453605 = Subassemblies
 			#autoLOC_453607 = All Subassemblies
-			#autoLOC_453626 = Filter by cross-section profile
-			#autoLOC_453705 = Filter by module
-			#autoLOC_453877 = Filter by resource
-			#autoLOC_453968 = Filter by manufacturer
+			#autoLOC_453626 = Filter by Cross-Section Profile
+			#autoLOC_453705 = Filter by Module
+			#autoLOC_453877 = Filter by Resource
+			#autoLOC_453968 = Filter by Manufacturer
 			#autoLOC_454017 = Filter by Tech Level
 			#autoLOC_455453 = Warning:
 			#autoLOC_455454 = No
@@ -19560,7 +17712,7 @@ Inactive until: <<1>>
 			#autoLOC_455866 = Save subassembly
 			#autoLOC_455877 = Save
 			#autoLOC_455882 = Cancel
-			#autoLOC_455895 = A subassembly named '<<1>>' already exists! Do you wish to overwrite it?
+			#autoLOC_455895 = A subassembly named <<1>> already exists! Do you wish to overwrite it?
 			#autoLOC_456128 = <b>Cost: </b><<1>>  <b><<2>></b>
 			#autoLOC_456241 = 1m
 			#autoLOC_456340 = <b>Mass: </b><<1>> t
@@ -19856,7 +18008,7 @@ All stageicons moved to their default stage groups.
 			#autoLOC_481635 = Are you sure you want to recover this vessel?
 			#autoLOC_481636 = Recover
 			#autoLOC_481637 = Cancel
-			#autoLOC_482129 = MET:
+			#autoLOC_482129 = MET:\u0020
 			#autoLOC_482391 = <color=green>[Tracking Station]: Now tracking <i><<1>></i>.</color>
 			#autoLOC_482486 = <<1>>m
 			#autoLOC_482576 = Mass: <<1>>t
@@ -22519,12 +20671,12 @@ Scientists speculate about possible ways to make it “awesome like in the stori
 			#autoLOC_1100087 = In this part we will look at how to actually catch an asteroid and decide what to do with it.
 			#autoLOC_1100088 = Jebediah Kerman
 			#autoLOC_1200000 = Asteroid Redirect Mission: Orbital Rendezvous
-			#autoLOC_1200001 = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it.In this scenario, the Retriever A1 spacecraft is on a course to rendezvous with an orbiting asteroid. You're tasked with performing the rendezvous burn, then catch up to the asteroid as you approach the intersection of both orbits.
+			#autoLOC_1200001 = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it. In this scenario, the Retriever A1 spacecraft is on a course to rendezvous with an orbiting asteroid. You're tasked with performing the rendezvous burn, then catch up to the asteroid as you approach the intersection of both orbits.
 			#autoLOC_1200002 = Jebediah Kerman
 			#autoLOC_1200003 = Bill Kerman
 			#autoLOC_1200004 = Bob Kerman
 			#autoLOC_1200005 = Asteroid Redirect Mission: Ready to Capture
-			#autoLOC_1200006 = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it.In this scenario, the Retriever A2 spacecraft is only a few meters away from the asteroid, ready to deploy its grappling device and attach itself. Can you maneuver it into a closed orbit around Kerbin's Mun?
+			#autoLOC_1200006 = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it. In this scenario, the Retriever A2 spacecraft is only a few meters away from the asteroid, ready to deploy its grappling device and attach itself. Can you maneuver it into a closed orbit around Kerbin's Mun?
 			#autoLOC_1200007 = Jebediah Kerman
 			#autoLOC_1200008 = Bill Kerman
 			#autoLOC_1200009 = Bob Kerman
@@ -22630,7 +20782,7 @@ Scientists speculate about possible ways to make it “awesome like in the stori
 			#autoLOC_1200109 = Billy-Bobmon Kerman
 			#autoLOC_1200110 = Barina Kerman
 			#autoLOC_1200111 = Mun Orbit
-			#autoLOC_1200112 = The Kerbal 11 Mission in low Mun Orbit.This mission is comprised of two docked vehicles, the Landing Module and the Command Module. The lander is undocked from the Command module, flies down to land, then returns to orbit where the Command Module will rendezvous and dock with it.After that, the lander is discarded and the crew leaves Mun orbit to return home.^^The crew forgot a heat shield, however, so if they want to live they'll need to use their ample propellant reserves to slow down when they get there...
+			#autoLOC_1200112 = The Kerbal 11 Mission in low Mun Orbit. This mission is comprised of two docked vehicles, the Landing Module and the Command Module. The lander is undocked from the Command module, flies down to land, then returns to orbit where the Command Module will rendezvous and dock with it. After that, the lander is discarded and the crew leaves Mun orbit to return home.^^The crew forgot a heat shield, however, so if they want to live they'll need to use their ample propellant reserves to slow down when they get there...
 			#autoLOC_1200113 = Jebediah Kerman
 			#autoLOC_1200114 = Bill Kerman
 			#autoLOC_1200115 = Bob Kerman
@@ -22778,13 +20930,13 @@ Felipe Falanghe
 			#autoLOC_1900243 = Run Unit Tests
 			#autoLOC_1900244 = KSP Community
 			#autoLOC_1900245 = Continue
-			#autoLOC_1900246 = Warning! You are about to play the 1.3 Prerelease.
+			#autoLOC_1900246 = Warning! You are about to play the <<1>> Prerelease.
 
-It is not the final release of 1.3. It may not accurately represent the quality or content of the 1.3 update.
+It is not the final release of <<1>>. It may not accurately represent the quality or content of the <<1>> update.
 
 Ensure you have backup up your saves and crafts. Disable all mods initially, re-enabling them as they are updated.
 
-To report bugs or issues, please go to <<1>>
+To report bugs or issues, please go to <<2>>
 			#autoLOC_1900247 = Start Game
 			#autoLOC_1900249 = Credits
 			#autoLOC_1900250 = KSP Prerelease
@@ -23062,7 +21214,7 @@ To report bugs or issues, please go to <<1>>
 			#autoLOC_6001013 = Panel Mass: <<1>>t. / m²
 
 			#autoLOC_6001014 = Panel Cost: <<1>> / m²
-			#autoLOC_6001015 = Recorded <<1>>'s experience <<2>>.
+			#autoLOC_6001015 = Recorded <<g:2,1>> <<3>>
 			#autoLOC_6001016 = and upgraded <<P:1>> to a level <<2>> <<3>>
 			#autoLOC_6001017 = Part
 			#autoLOC_6001018 = <<1>> broken by aero forces.
@@ -23080,8 +21232,8 @@ Restoring functionality will require a Scientist.
 
 Restoring functionality will require a Scientist.
 			#autoLOC_6001028 = Not Enough Crew (<<1>>/<<2>>)
-			#autoLOC_6001029 = <color=#99ff0099>[<<1>>]: Cleaning out <<1>>...
-			#autoLOC_6001030 = <color=orange>[<<1>>]: Not enough
+			#autoLOC_6001029 = [<<1>>]: Cleaning out <<2>>... <<3>>
+			#autoLOC_6001030 = [<<1>>]: Not enough <<2>> to clean out <<3>> <<4>>
 			#autoLOC_6001031 = All labs are currently busy.
 			#autoLOC_6001032 = The lab is currently busy.
 			#autoLOC_6001033 = No labs are currently manned.
@@ -23784,7 +21936,7 @@ DROP ZONE
 			#autoLOC_6002050 = Greater Flats
 			#autoLOC_6002051 = Minor Craters
 			#autoLOC_6002052 = Mountains
-			#autoLOC_6002053 = Mu Glaicer
+			#autoLOC_6002053 = Mu Glacier
 			#autoLOC_6002054 = North Pole
 			#autoLOC_6002055 = Northeast Basin
 			#autoLOC_6002058 = Northern Glaciers
@@ -23997,7 +22149,7 @@ Please remove them before continuing.
 			#autoLOC_6002265 = Train at <<1>>
 			#autoLOC_6002266 = quicksave
 			#autoLOC_6002267 = (<<1>> avg.)
-			#autoLOC_6002268 = Data Acquired
+			#autoLOC_6002268 = \u0020Data Acquired
 			#autoLOC_6002269 = Deployed
 			#autoLOC_6002270 = Deploying…
 			#autoLOC_6002271 = Start Extended
@@ -24144,6 +22296,76 @@ Has Potential Upgrades
 			#autoLOC_6002415 = A contract offer has been withdrawn by<<1>>: <<2>>
 			#autoLOC_6002416 = We have accepted a contract offer from <<1>>: <<2>>
 			#autoLOC_6002417 = True
+			#autoLOC_6002418 = Toggle Steering
+			#autoLOC_6002419 = Toggle Motor
+			#autoLOC_6002420 = <color=<<1>>>Warning: Approaching G Limits!</color>
+			#autoLOC_6002421 = <color=<<1>>>Warning: Approaching Pressure Limits!</color>
+			#autoLOC_6002422 = Error!
+			#autoLOC_6002423 = The <<1>> SFS file is incompatible with this version of KSP.
+			#autoLOC_6002424 = Craft Loading Error
+			#autoLOC_6002425 = Craft <<1>> was not loaded because
+it had the following parts missing:
+<<2>>
+			#autoLOC_6002426 = Loading Failed
+			#autoLOC_6002427 = Part <<1>> is missing
+			#autoLOC_6002428 = Cannot load the craft. File format is incompatible
+with this version of KSP.
+			#autoLOC_6002429 = Retriever A1
+			#autoLOC_6002430 = Retriever A2
+			#autoLOC_6002431 = Orbiter 1
+			#autoLOC_6002432 = Starbeam
+			#autoLOC_6002433 = Starbeam Debris
+			#autoLOC_6002434 = Starbeam Lander
+			#autoLOC_6002435 = The Vules Jerne Kerman
+			#autoLOC_6002436 = The Vules Jerne Kerman Debris
+			#autoLOC_6002437 = The Vules Jerne Kerman Rover
+			#autoLOC_6002438 = Mun 7
+			#autoLOC_6002439 = Inspiration of the Windward Spirit
+			#autoLOC_6002440 = Inspiration of the Windward Spirit Debris
+			#autoLOC_6002441 = Kerbal 11
+			#autoLOC_6002442 = Ever Onward
+			#autoLOC_6002443 = Ever Onward Lander
+			#autoLOC_6002444 = Homeseeker Flyback Booster
+			#autoLOC_6002445 = Homeseeker Flyback Booster Probe
+			#autoLOC_6002446 = Homeseeker Flyback Booster Debris
+			#autoLOC_6002447 = Quietlands
+			#autoLOC_6002448 = Quietlands Debris
+			#autoLOC_6002449 = Aeris 4B "Maybe the Sky"
+			#autoLOC_6002450 = Bowser 1
+			#autoLOC_6002451 = Bowser 1 Debris
+			#autoLOC_6002452 = Space Station 1
+			#autoLOC_6002453 = Farsight radio observatory one
+			#autoLOC_6002454 = Farsight radio observatory two
+			#autoLOC_6002455 = Farsight radio observatory three
+			#autoLOC_6002456 = "Jumping" JAC-K DSR 1
+			#autoLOC_6002457 = "Jumping" JAC-K DSR 2
+			#autoLOC_6002458 = "Jumping" JAC-K DSR 3
+			#autoLOC_6002459 = "Jumping" JAC-K DSR 4
+			#autoLOC_6002460 = "Jumping" JAC-K DSR 5
+			#autoLOC_6002461 = "Jumping" JAC-K DSR 6
+			#autoLOC_6002462 = "Jumping" JAC-K DSR 5 Probe
+			#autoLOC_6002463 = "Mirror" signal relay 1
+			#autoLOC_6002464 = "Mirror" signal relay 2
+			#autoLOC_6002465 = "Mirror" signal relay 3
+			#autoLOC_6002466 = "Mirror" signal relay 4
+			#autoLOC_6002467 = Kenera-9
+			#autoLOC_6002468 = Philae
+			#autoLOC_6002469 = Kerbal Rescuer
+			#autoLOC_6002470 = Stranded
+			#autoLOC_6002471 = Scitest
+			#autoLOC_6002472 = Inspiration of the Windward Spirit Lander
+			#autoLOC_6002473 = Inspiration of the Windward Spirit Probe
+			#autoLOC_6002474 = Space Station Core
+			#autoLOC_6002475 = Fuel Module and Tug
+			#autoLOC_6002476 = Space Station Core Probe
+			#autoLOC_6002477 = Kerbal XX
+			#autoLOC_6002478 = Rover + Skycrane
+			#autoLOC_6002479 = CUSTOM CATEGORY
+DROP ZONE
+			#autoLOC_6002480 = Warning
+			#autoLOC_6002481 = No category selected.
+			#autoLOC_6002482 = This category already has this part.
+			#autoLOC_6002483 = Everything ok.
 			#autoLOC_6003000 = None
 			#autoLOC_6003001 = Stage
 			#autoLOC_6003002 = Gear
@@ -24328,6 +22550,23 @@ Single Hop Only
 			#autoLOC_6004058 = TOO FAR FROM OBJECT!
 			#autoLOC_6004059 = MINIMAL
 			#autoLOC_6004060 = IN VACUUM!
+			#autoLOC_6004061 = Bop^n
+			#autoLOC_6004062 = Dres^n
+			#autoLOC_6004063 = Duna^n
+			#autoLOC_6004064 = Eeloo^n
+			#autoLOC_6004065 = Eve^n
+			#autoLOC_6004066 = Gilly^n
+			#autoLOC_6004067 = Ike^n
+			#autoLOC_6004068 = Jool^n
+			#autoLOC_6004069 = Kerbin^n
+			#autoLOC_6004070 = Laythe^n
+			#autoLOC_6004071 = Minmus^n
+			#autoLOC_6004072 = Moho^n
+			#autoLOC_6004073 = Mun^n
+			#autoLOC_6004074 = Pol^n
+			#autoLOC_6004075 = Sun^n
+			#autoLOC_6004076 = Tylo^n
+			#autoLOC_6004077 = Vall^n
 			#autoLOC_6100000 = Have <<1>>
 			#autoLOC_6100001 = Test <<1>>
 			#autoLOC_6100002 = We want you to haul the <<1>> <<2>>.
@@ -24352,18 +22591,18 @@ Single Hop Only
 			#autoLOC_6100021 = to the Launch Site
 			#autoLOC_6100022 = at the Launch Site
 			#autoLOC_6100023 = into flight above <<1>>'s <<2>>
-			#autoLOC_6100024 = in flight over <<1>>'s <<2>>
-			#autoLOC_6100025 = to solid ground in <<1>>'s <<2>>
-			#autoLOC_6100026 = to the surface in <<1>>'s <<2>>
-			#autoLOC_6100027 = landed <<1>>'s <<2>>
-			#autoLOC_6100028 = into orbit over <<1>>'s <<2>>
-			#autoLOC_6100029 = orbiting over <<1>>'s <<2>>
-			#autoLOC_6100030 = into the ocean in <<1>>'s <<2>>
-			#autoLOC_6100031 = splashed down on <<1>>'s <<2>>
-			#autoLOC_6100032 = into a sub-orbital trajectory over <<1>>'s <<2>>
-			#autoLOC_6100033 = on a sub-orbital trajectory over <<1>>'s <<2>>
-			#autoLOC_6100034 = into an escape trajectory over <<1>>'s <<2>>
-			#autoLOC_6100035 = on an escape trajectory over <<1>>'s <<2>>
+			#autoLOC_6100024 = in flight over <<g:2,1>>
+			#autoLOC_6100025 = to solid ground in <<g:2,1>>
+			#autoLOC_6100026 = to the surface in <<g:2,1>>
+			#autoLOC_6100027 = landed <<g:2,1>>
+			#autoLOC_6100028 = into orbit over <<g:2,1>>
+			#autoLOC_6100029 = orbiting over <<g:2,1>>
+			#autoLOC_6100030 = into the ocean in <<g:2,1>>
+			#autoLOC_6100031 = splashed down on <<g:2,1>>
+			#autoLOC_6100032 = into a sub-orbital trajectory over <<g:2,1>>
+			#autoLOC_6100033 = on a sub-orbital trajectory over <<g:2,1>>
+			#autoLOC_6100034 = into an escape trajectory over <<g:2,1>>
+			#autoLOC_6100035 = on an escape trajectory over <<g:2,1>>
 			#autoLOC_6100036 = Shipwreck
 			#autoLOC_6100037 = Wreckage
 			#autoLOC_6100038 = Pod
@@ -24837,15 +23076,6 @@ Center before attempting to access KerbNet.
 			#autoLOC_7003413 = Max. Acceleration
 			#autoLOC_7003414 = Burn Time to 0m/s
 			#autoLOC_7003415 = Date
-			
-			{
-			}
-			
-			{
-			}
-			to
-			{
-			}
 		}
 	}
 }
@@ -30587,7 +28817,7 @@ UrlConfig
 		{
 			name = KerbalSeat
 			seatPivotName = seatPivot
-			ejectDirection = 0, 1, 0.2
+			ejectDirection = 0.0, 0.1, 0.1
 		}
 	}
 }
@@ -36285,7 +34515,7 @@ UrlConfig
 			name = ModuleEnginesFX
 			engineID = Cruise
 			thrustVectorTransformName = thrustTransform
-			exhaustDamage = False
+			exhaustDamage = True
 			ignitionThreshold = 0.1
 			minThrust = 0
 			maxThrust = 120
@@ -36302,7 +34532,7 @@ UrlConfig
 			engineSpoolIdle = 0.05
 			engineSpoolTime = 2.0
 			EngineType = Turbine
-			exhaustDamageMultiplier = 50
+			exhaustDamageMultiplier = 5
 			clampPropReceived = True
 			atmChangeFlow = True
 			useVelCurve = True
@@ -36684,7 +34914,7 @@ UrlConfig
 			name = ModuleEnginesFX
 			engineID = Cruise
 			thrustVectorTransformName = thrustTransform
-			exhaustDamage = False
+			exhaustDamage = True
 			ignitionThreshold = 0.1
 			minThrust = 0
 			maxThrust = 360
@@ -36700,7 +34930,7 @@ UrlConfig
 			engineSpoolIdle = 0.05
 			engineSpoolTime = 2.0
 			EngineType = Turbine
-			exhaustDamageMultiplier = 2
+			exhaustDamageMultiplier = 5
 			clampPropReceived = True
 			atmChangeFlow = True
 			useVelCurve = True
@@ -49564,7 +47794,6 @@ UrlConfig
 			retractActionName = Retract <<1>>
 			toggleActionName = Toggle <<1>>
 			moduleType = Drill
-			displayActions = false
 		}
 		MODULE
 		{
@@ -50096,7 +48325,6 @@ UrlConfig
 			retractActionName = Retract <<1>>
 			toggleActionName = Toggle <<1>>
 			moduleType = Drill
-			displayActions = false
 		}
 		MODULE
 		{

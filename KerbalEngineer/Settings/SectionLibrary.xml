@@ -201,7 +201,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>true</IsVisible>
-        <LineCount>5</LineCount>
+        <LineCount>6</LineCount>
         <Name>HUD 1</Name>
         <ReadoutModuleNames>
           <string>Orbital.ApoapsisHeight</string>
@@ -209,6 +209,7 @@
           <string>Orbital.PeriapsisHeight</string>
           <string>Orbital.TimeToPeriapsis</string>
           <string>Vessel.DeltaVTotal</string>
+          <string>Orbital.Inclination</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
