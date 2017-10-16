@@ -1,4 +1,46 @@
 Executing: KerbalEngineer - 1.1.3.0
 Assembly: C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
 
-[Log 18:33:19.8835657]: images (UnityEngine.AssetBundle)
+[Log 13:44:45.1948197]: images (UnityEngine.AssetBundle)
+[Log 13:48:35.4319779]: ActionMenu->Awake
+[Log 13:48:35.4374829]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: ModuleManager.2.8.1, Version=2.8.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: EasyVesselSwitch, Version=1.5.6471.31118, Culture=neutral, PublicKeyToken=null
+Assembly: KSPDev_Utils.0.28, Version=0.28.6465.41979, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: Atmosphere, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: CelestialShadows, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: CityLights, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: EVEManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: PartFX, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: PQSManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: ShaderLoader, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: Terrain, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: TextureConfig, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: Utils, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: _BuildManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: FP_DockingSndFX, Version=2.1.12.27690, Culture=neutral, PublicKeyToken=null
+Assembly: KAS, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.1, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalEngineer, Version=1.1.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalEngineer.Unity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: KIS, Version=1.7.6468.41490, Culture=neutral, PublicKeyToken=null
+Assembly: KSPDev_Utils.0.28, Version=0.28.6465.41979, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: DockingPortAlignmentIndicator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: DPAI_RPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: ModuleDockingNodeNamed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: scatterer, Version=1.0.6396.38553, Culture=neutral, PublicKeyToken=null
+Assembly: KSPSteamCtrlr, Version=0.0.1.35, Culture=neutral, PublicKeyToken=null
+Assembly: Steamworks.NET, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalAlarmClock, Version=3.8.5.0, Culture=neutral, PublicKeyToken=null
+Assembly: Scale, Version=2.3.7.0, Culture=neutral, PublicKeyToken=null
+Assembly: Scale_Redist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+[Log 13:48:35.4374829]: FlightEngineerCore->Awake
+[Log 13:48:37.5163524]: ActionMenu->Start
+[Log 13:48:37.5528848]: FlightEngineerCore->Start
+[Log 14:05:41.8891655]: ActionMenu->OnDestroy
+[Log 14:05:41.9046801]: FlightEngineerCore->OnDestroy

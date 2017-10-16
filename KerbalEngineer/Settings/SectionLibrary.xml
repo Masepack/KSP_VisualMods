@@ -225,7 +225,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>true</IsVisible>
-        <LineCount>5</LineCount>
+        <LineCount>4</LineCount>
         <Name>HUD 2</Name>
         <ReadoutModuleNames>
           <string>Surface.AltitudeTerrain</string>
@@ -233,6 +233,7 @@
           <string>Surface.HorizontalSpeed</string>
           <string>Surface.Biome</string>
           <string>Surface.MachNumber</string>
+          <string>Vessel.SuicideBurnDistance</string>
         </ReadoutModuleNames>
       </SectionModule>
     </Value>
