@@ -201,7 +201,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>true</IsVisible>
-        <LineCount>6</LineCount>
+        <LineCount>7</LineCount>
         <Name>HUD 1</Name>
         <ReadoutModuleNames>
           <string>Orbital.ApoapsisHeight</string>
@@ -210,6 +210,7 @@
           <string>Orbital.TimeToPeriapsis</string>
           <string>Vessel.DeltaVTotal</string>
           <string>Orbital.Inclination</string>
+          <string>Vessel.ThrustToWeight</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
@@ -234,6 +235,8 @@
           <string>Surface.Biome</string>
           <string>Surface.MachNumber</string>
           <string>Vessel.SuicideBurnDistance</string>
+          <string>Rendezvous.RelativeInclination</string>
+          <string>Surface.ImpactBiome</string>
         </ReadoutModuleNames>
       </SectionModule>
     </Value>

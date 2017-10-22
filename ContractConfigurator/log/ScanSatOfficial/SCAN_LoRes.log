@@ -1,0 +1,185 @@
+Debug information for CONTRACT_TYPE 'SCAN_LoRes':
+
+Configuration:
+CONTRACT_TYPE
+{
+	prestige = Significant
+	prestige = Trivial
+	advanceFunds = Random(2000, 10000.0)
+	failureFunds = Random(1000, 10000.0)
+	failureReputation = 1
+	rewardFunds = Random(40000, 60000.0)
+	rewardReputation = 1
+	rewardScience = 0
+	targetBody = @/targetBody1
+	autoAccept = false
+	declinable = true
+	cancellable = true
+	deadline = Random(300, 500) * @/targetBody1.Multiplier()
+	maxExpiry = 7
+	minExpiry = 1
+	completedMessage = Excellent work, despite the grainy monochrome image we've recovered our experts are very excited to see what they can find.
+	synopsis = Perform a RADAR scan of @/targetBody1
+	notes = Scanning can take place while the vessel is not loaded.
+	agent = SCAN: Scientific Committee on Advanced Navigation
+	motivation = Scanning
+	subject = Kerbal
+	topic = Science
+	group = ScanSatOfficial
+	genericTitle = Do a Low Resolution Scan of a body.
+	title = Do a Low Resolution Scan of @/targetBody1
+	name = SCAN_LoRes
+	DATA
+	{
+		title = Must have orbited the target body.
+		targetBody1 = Prestige() == Trivial ? @ScanSatOfficial:p1Bodies.SelectUnique() : @ScanSatOfficial:p2Bodies.SelectUnique()
+		uniquenessCheck = CONTRACT_ALL
+		requiredValue = true
+		type = CelestialBody
+	}
+	DATA
+	{
+		minScan1 = 70 + @diffModifier1
+		scanRequired1 = 75 + @diffModifier1
+		diffModifier1 = Prestige() == Trivial ? 0 : 10
+		type = double
+	}
+	PARAMETER
+	{
+		scanType = AltimetryLoRes
+		coverage = @/scanRequired1
+		targetBody = @/targetBody1
+		type = SCANsatCoverage
+		name = SCANsatCoverage
+	}
+	REQUIREMENT
+	{
+		title = Must have scanned less than @/minScan1% of the target body.
+		scanType = AltimetryLoRes
+		maxCoverage = @/minScan1
+		minCoverage = 0.0
+		targetBody = @/targetBody1
+		type = SCANsatCoverage
+		name = SCANsatCoverage
+	}
+	REQUIREMENT
+	{
+		targetBody = HomeWorld()
+		type = Orbit
+		name = Orbit
+	}
+	REQUIREMENT
+	{
+		targetBody = @/targetBody
+		part = SCANsat_Scanner
+		type = PartUnlocked
+		name = PartUnlocked
+	}
+}
+
+Data Nodes:
+SCAN_LoRes
+    ScanSatOfficial:name = ScanSatOfficial, deterministic = True
+    ScanSatOfficial:displayName = ScanSat Official, deterministic = True
+    ScanSatOfficial:minVersion = 1.15.0, deterministic = True
+    ScanSatOfficial:maxCompletions = 0, deterministic = True
+    ScanSatOfficial:maxSimultaneous = 3, deterministic = True
+    ScanSatOfficial:disabledContractType = [], deterministic = True
+    ScanSatOfficial:agent = Contracts.Agents.Agent, deterministic = True
+    ScanSatOfficial:sortKey = ScanSat Official, deterministic = True
+    ScanSatOfficial:tip = , deterministic = True
+    ScanSatOfficial:p1Bodies = [ Kerbin (CelestialBody), Mun (CelestialBody), Minmus (CelestialBody) ], deterministic = True
+    ScanSatOfficial:p2Bodies = [], deterministic = False
+    ScanSatOfficial:p3Bodies = [], deterministic = False
+    name = SCAN_LoRes, deterministic = True
+    trace = False, deterministic = True
+    title = Do a Low Resolution Scan of Kerbin, deterministic = False
+    tag = , deterministic = True
+    description = null, deterministic = True
+    topic = Science, deterministic = True
+    subject = Kerbal, deterministic = True
+    notes = Scanning can take place while the vessel is not loaded., deterministic = True
+    synopsis = Perform a RADAR scan of Kerbin, deterministic = False
+    completedMessage = Excellent work, despite the grainy monochrome image we've recovered our experts are very excited to see what they can find., deterministic = True
+    agent = Contracts.Agents.Agent, deterministic = True
+    minExpiry = 1, deterministic = True
+    maxExpiry = 7, deterministic = True
+    deadline = 310.6594, deterministic = False
+    cancellable = True, deterministic = True
+    declinable = True, deterministic = True
+    autoAccept = False, deterministic = True
+    prestige = [ Trivial, Significant ], deterministic = True
+    targetBody = Kerbin (CelestialBody), deterministic = False
+    maxCompletions = 0, deterministic = True
+    maxSimultaneous = 4, deterministic = True
+    rewardFunds = 52936.77, deterministic = False
+    rewardReputation = 1, deterministic = True
+    rewardScience = 0, deterministic = True
+    failureFunds = 8770.688, deterministic = False
+    failureReputation = 1, deterministic = True
+    advanceFunds = 8813.585, deterministic = False
+    targetBody1 = Kerbin (CelestialBody), deterministic = False
+    diffModifier1 = 0, deterministic = False
+    scanRequired1 = 75, deterministic = False
+    minScan1 = 70, deterministic = False
+    genericTitle = Do a Low Resolution Scan of a body., deterministic = True
+    genericDescription = null, deterministic = True
+    sortKey = Do a Low Resolution Scan of a body., deterministic = True
+
+	SCANsatCoverage
+	    type = SCANsatCoverage, deterministic = True
+	    name = SCANsatCoverage, deterministic = True
+	    targetBody = Kerbin (CelestialBody), deterministic = False
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = null, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    coverage = 75, deterministic = False
+	    scanType = AltimetryLoRes, deterministic = True
+	
+	SCANsatCoverage_1
+	    type = SCANsatCoverage, deterministic = True
+	    name = SCANsatCoverage, deterministic = True
+	    title = Must have scanned less than 70% of the target body., deterministic = False
+	    hideChildren = False, deterministic = True
+	    targetBody = Kerbin (CelestialBody), deterministic = False
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	    minCoverage = 0, deterministic = True
+	    maxCoverage = 70, deterministic = False
+	    scanType = AltimetryLoRes, deterministic = True
+	
+	Orbit
+	    type = Orbit, deterministic = True
+	    name = Orbit, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Kerbin (CelestialBody), deterministic = True
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	    checkType = null, deterministic = True
+	
+	PartUnlocked
+	    type = PartUnlocked, deterministic = True
+	    name = PartUnlocked, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Kerbin (CelestialBody), deterministic = False
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	    part = [ SCANsat.Scanner ], deterministic = True
+	
+
+Output log:
+[INFO] ContractConfigurator.ContractType: Loading CONTRACT_TYPE: 'SCAN_LoRes'
+[WARNING] ContractConfigurator.ContractType: CONTRACT_TYPE 'SCAN_LoRes': unexpected attribute 'motivation' found, ignored.
+[INFO] ContractConfigurator.ContractType: Successfully loaded CONTRACT_TYPE 'SCAN_LoRes'

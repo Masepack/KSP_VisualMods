@@ -1,10 +1,16 @@
 Executing: KerbalEngineer - 1.1.3.0
 Assembly: C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
 
-[Log 13:44:45.1948197]: images (UnityEngine.AssetBundle)
-[Log 13:48:35.4319779]: ActionMenu->Awake
-[Log 13:48:35.4374829]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Log 15:05:54.3545131]: images (UnityEngine.AssetBundle)
+[Log 15:07:09.2677594]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: ModuleManager.2.8.1, Version=2.8.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: USITools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: AllYAll, Version=0.11.1.1, Culture=neutral, PublicKeyToken=null
+Assembly: BetterBurnTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: CCK, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+Assembly: ContractConfigurator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: EasyVesselSwitch, Version=1.5.6471.31118, Culture=neutral, PublicKeyToken=null
 Assembly: KSPDev_Utils.0.28, Version=0.28.6465.41979, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
@@ -19,7 +25,9 @@ Assembly: Terrain, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
 Assembly: TextureConfig, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
 Assembly: Utils, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
 Assembly: _BuildManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
+Assembly: Firespitter, Version=7.3.6354.39102, Culture=neutral, PublicKeyToken=null
 Assembly: FP_DockingSndFX, Version=2.1.12.27690, Culture=neutral, PublicKeyToken=null
+Assembly: RasterPropMonitor, Version=0.29.2.13391, Culture=neutral, PublicKeyToken=null
 Assembly: KAS, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.1, Culture=neutral, PublicKeyToken=null
 Assembly: KerbalEngineer, Version=1.1.3.0, Culture=neutral, PublicKeyToken=null
@@ -32,15 +40,46 @@ Assembly: DockingPortAlignmentIndicator, Version=1.0.0.0, Culture=neutral, Publi
 Assembly: DPAI_RPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
 Assembly: ModuleDockingNodeNamed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: PreciseManeuver, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: PreciseManeuver.Unity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: SCANsat, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: SCANsat.Unity, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null
 Assembly: scatterer, Version=1.0.6396.38553, Culture=neutral, PublicKeyToken=null
 Assembly: KSPSteamCtrlr, Version=0.0.1.35, Culture=neutral, PublicKeyToken=null
 Assembly: Steamworks.NET, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: KerbalAlarmClock, Version=3.8.5.0, Culture=neutral, PublicKeyToken=null
 Assembly: Scale, Version=2.3.7.0, Culture=neutral, PublicKeyToken=null
 Assembly: Scale_Redist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: USILifeSupport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: [x] Science!, Version=5.11.6489.36142, Culture=neutral, PublicKeyToken=null
 
-[Log 13:48:35.4374829]: FlightEngineerCore->Awake
-[Log 13:48:37.5163524]: ActionMenu->Start
-[Log 13:48:37.5528848]: FlightEngineerCore->Start
-[Log 14:05:41.8891655]: ActionMenu->OnDestroy
-[Log 14:05:41.9046801]: FlightEngineerCore->OnDestroy
+[Exception 15:12:33.3727717]: Object reference not set to an instance of an object
+[]:   at KerbalEngineer.Editor.BuildOverlayResources.OnGUI () [0x00000] in <filename unknown>:0 
+
+[Exception 15:12:33.3732724]: Object reference not set to an instance of an object
+[]:   at KerbalEngineer.Editor.BuildOverlayResources.OnGUI () [0x00000] in <filename unknown>:0 
+
+[Log 15:12:33.5524578]: BuildAdvanced->OnDestroy
+[Log 15:12:35.0207467]: ActionMenu->Awake
+[Log 15:12:35.0232497]: FlightEngineerCore->Awake
+[Log 15:12:37.1301505]: ActionMenu->Start
+[Log 15:12:37.1678020]: FlightEngineerCore->Start
+[Log 15:12:37.6311065]: GetExperimentBiome(Kerbin, NaN, NaN) died
+[Exception 15:12:37.6311065]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetPixelColor (Double x, Double y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+
+[Log 15:12:39.2838372]: GetExperimentBiome(Kerbin, NaN, NaN) died
+[Exception 15:12:39.2838372]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetPixelColor (Double x, Double y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+
+[Log 15:17:30.3320918]: ActionMenu->OnDestroy
+[Log 15:17:30.3400989]: FlightEngineerCore->OnDestroy

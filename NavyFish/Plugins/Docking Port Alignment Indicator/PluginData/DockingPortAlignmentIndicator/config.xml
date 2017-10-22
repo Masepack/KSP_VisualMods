@@ -3,9 +3,9 @@
     <double name="gui_scale">0.86000001430511475</double>
     <rect name="window_position">
         <xmin>1303.68994</xmin>
-        <xmax>1576.30994</xmax>
+        <xmax>1647.68994</xmax>
         <ymin>463.690002</ymin>
-        <ymax>736.309998</ymax>
+        <ymax>856.710022</ymax>
     </rect>
     <bool name="drawHudIcon">1</bool>
     <bool name="allowAutoPortTargeting">1</bool>
