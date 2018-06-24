@@ -1,0 +1,133 @@
+MISSION
+{
+	title = Template Mission 1
+	category = User
+	NODES
+	{
+		NODE
+		{
+			title = Start Node
+			id = 51135ec1-21eb-46d8-9f62-a709abb09fe0
+			editorPosition = 11,105
+			isStartNode = true
+		}
+		NODE
+		{
+			title = Reached Altitude
+			id = 52b423ed-0483-49eb-9994-a2a46a571507
+			editorPosition = 350,105
+			isObjective = true
+			FROMNODES
+			{
+				nodeID = 51135ec1-21eb-46d8-9f62-a709abb09fe0
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = TestGroup AltTest
+					TESTMODULE
+					{
+						title = Altitude Test
+						name = TestVesselAltitude
+						altitude = 100
+						useRadarAltimiter = false
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = altitude
+						parametersDisplayedInSAP = useRadarAltimiter
+					}
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					title = Action Message
+					name = ActionMessage
+					message = Good job, you reached 100m!
+					duration = 5
+					style = LOWER_CENTER;
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+				}
+			}
+		}
+		NODE
+		{
+			title = Landed
+			id = 9ca652a6-fb2f-4488-a693-ca7effa6d20d
+			editorPosition = 1035,105
+			FROMNODES
+			{
+				nodeID = 52b423ed-0483-49eb-9994-a2a46a571507
+				nodeID = a209a045-3d4a-407b-89d0-ef6fa67d9957
+			}
+			isEndNode = true
+			isObjective = true
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = TestGroup Landed
+					TESTMODULE
+					{
+						title = Landed Test
+						name = TestVesselSituation
+						situation = LANDED
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = vesselSituation
+					}
+				}
+			}
+		}
+		NODE
+		{
+			title = Too Long
+			id = a209a045-3d4a-407b-89d0-ef6fa67d9957
+			editorPosition = 690,220
+			FROMNODES
+			{
+				nodeID = 52b423ed-0483-49eb-9994-a2a46a571507
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = Test Time since reaching Altitude
+					TESTMODULE
+					{
+						title = Time Check
+						name = TestTimeSinceNode
+						nodeID = 52b423ed-0483-49eb-9994-a2a46a571507
+						time = 5.0
+						parametersDisplayedInSAP = nodeID
+						parametersDisplayedInSAP = time
+					}
+				}
+			}
+		}
+		NODE
+		{
+			title = Crashed
+			id = 07b39039-6cd1-4d16-bf63-718e154478ba
+			editorPosition = 11,-65
+			isEndNode = true
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = TestGroup Crashed
+					TESTMODULE
+					{
+						title = Crashed Test
+						name = TestVesselState
+						state = DEAD
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = vesselState
+					}
+				}
+			}
+		}
+	}
+}

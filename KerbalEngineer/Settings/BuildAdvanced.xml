@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSettingItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SettingItem>
     <Name>visible</Name>
@@ -6,11 +6,11 @@
   </SettingItem>
   <SettingItem>
     <Name>windowPositionX</Name>
-    <Value xsi:type="float">1635</Value>
+    <Value xsi:type="float">1630</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionY</Name>
-    <Value xsi:type="float">122</Value>
+    <Value xsi:type="float">51</Value>
   </SettingItem>
   <SettingItem>
     <Name>compactMode</Name>
@@ -26,7 +26,7 @@
   </SettingItem>
   <SettingItem>
     <Name>showAtmosphericDetails</Name>
-    <Value xsi:type="boolean">true</Value>
+    <Value xsi:type="boolean">false</Value>
   </SettingItem>
   <SettingItem>
     <Name>showSettings</Name>

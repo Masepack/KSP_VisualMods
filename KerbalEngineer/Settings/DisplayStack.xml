@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSettingItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SettingItem>
     <Name>hidden</Name>
@@ -10,10 +10,10 @@
   </SettingItem>
   <SettingItem>
     <Name>windowPositionX</Name>
-    <Value xsi:type="float">1588</Value>
+    <Value xsi:type="float">1453</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionY</Name>
-    <Value xsi:type="float">335</Value>
+    <Value xsi:type="float">119</Value>
   </SettingItem>
 </ArrayOfSettingItem>

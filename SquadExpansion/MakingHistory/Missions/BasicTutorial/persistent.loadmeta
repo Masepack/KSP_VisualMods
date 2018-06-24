@@ -1,0 +1,15 @@
+saveMD5 = d47ac9827a83f7b51ee060d8426f0c6d
+id = 8b4714b2-5649-4607-8bf4-8e012d86c429
+idName = Beginner Tutorial
+title = #autoLOC_8300010
+briefing = #autoLOC_8300011
+author = 
+packName = squad_MakingHistory_Tutorial
+order = 100
+hardIcon = False
+difficulty = Beginner
+vesselCount = 1
+nodeCount = 2
+startUT = 0
+missionExpansionVersion = 1.2.0
+actionModules = ActionCreateVessel

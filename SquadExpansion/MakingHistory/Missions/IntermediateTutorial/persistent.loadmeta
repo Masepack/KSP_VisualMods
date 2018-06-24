@@ -1,0 +1,17 @@
+saveMD5 = c1e2f3245c27430daa29e7a7cedf0ff3
+id = 836ce76e-8cbb-42d3-80cb-ebff274f5bff
+idName = Intermediate Tutorial
+title = #autoLOC_9990010
+briefing = #autoLOC_9990011
+author = 
+packName = squad_MakingHistory_Tutorial
+order = 200
+hardIcon = False
+difficulty = Beginner
+vesselCount = 1
+nodeCount = 4
+startUT = 0
+missionExpansionVersion = 1.2.0
+testModules = TestOrbit
+testModules = TestVesselSituationLanded
+actionModules = ActionCreateVessel

@@ -1,85 +1,101 @@
-Executing: KerbalEngineer - 1.1.3.0
+Executing: KerbalEngineer - 1.1.5.2
 Assembly: C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
 
-[Log 15:05:54.3545131]: images (UnityEngine.AssetBundle)
-[Log 15:07:09.2677594]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: ModuleManager.2.8.1, Version=2.8.1.0, Culture=neutral, PublicKeyToken=null
+[Log 12:44:23.1496422]: images (UnityEngine.AssetBundle)
+[Log 12:46:05.3028240]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: ModuleManager, Version=3.0.7.0, Culture=neutral, PublicKeyToken=null
+Assembly: 000_AT_Utils, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: ClickThroughBlocker, Version=0.1.6.5, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
 Assembly: USITools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: ToolbarControl, Version=0.1.6.10, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
 Assembly: AllYAll, Version=0.11.1.1, Culture=neutral, PublicKeyToken=null
 Assembly: BetterBurnTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: CCK, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
-Assembly: ContractConfigurator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: EasyVesselSwitch, Version=1.5.6471.31118, Culture=neutral, PublicKeyToken=null
-Assembly: KSPDev_Utils.0.28, Version=0.28.6465.41979, Culture=neutral, PublicKeyToken=null
-Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
-Assembly: Atmosphere, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: CelestialShadows, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: CityLights, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: EVEManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: PartFX, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: PQSManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: ShaderLoader, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: Terrain, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: TextureConfig, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: Utils, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: _BuildManager, Version=1.2.2.1, Culture=neutral, PublicKeyToken=null
-Assembly: Firespitter, Version=7.3.6354.39102, Culture=neutral, PublicKeyToken=null
+Assembly: CommunityTraitIcons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: DistantObject, Version=1.9.1.24206, Culture=neutral, PublicKeyToken=null
+Assembly: EasyVesselSwitch, Version=1.6.6640.41793, Culture=neutral, PublicKeyToken=null
+Assembly: KSPDev_Utils.0.31, Version=0.31.6640.37756, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: Firespitter, Version=7.3.6652.37613, Culture=neutral, PublicKeyToken=null
 Assembly: FP_DockingSndFX, Version=2.1.12.27690, Culture=neutral, PublicKeyToken=null
-Assembly: RasterPropMonitor, Version=0.29.2.13391, Culture=neutral, PublicKeyToken=null
-Assembly: KAS, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: GroundConstruction, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: RasterPropMonitor, Version=0.30.5.22792, Culture=neutral, PublicKeyToken=null
+Assembly: KAS, Version=0.6.4.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.1, Culture=neutral, PublicKeyToken=null
-Assembly: KerbalEngineer, Version=1.1.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalEngineer, Version=1.1.5.2, Culture=neutral, PublicKeyToken=null
 Assembly: KerbalEngineer.Unity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
-Assembly: KIS, Version=1.7.6468.41490, Culture=neutral, PublicKeyToken=null
-Assembly: KSPDev_Utils.0.28, Version=0.28.6465.41979, Culture=neutral, PublicKeyToken=null
+Assembly: KIS, Version=1.12.6700.37736, Culture=neutral, PublicKeyToken=null
+Assembly: KSPDev_Utils.0.33, Version=0.33.6700.37148, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
 Assembly: DockingPortAlignmentIndicator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: DPAI_RPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
 Assembly: ModuleDockingNodeNamed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: PreciseManeuver, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null
-Assembly: PreciseManeuver.Unity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: SCANsat, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null
-Assembly: SCANsat.Unity, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null
-Assembly: scatterer, Version=1.0.6396.38553, Culture=neutral, PublicKeyToken=null
+Assembly: PortraitStats, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null
+Assembly: PreciseManeuver, Version=2.4.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: PreciseManeuver.Unity, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: RCSBuildAid, Version=0.9.7.1, Culture=neutral, PublicKeyToken=null
+Assembly: SCANsat, Version=1.8.6.0, Culture=neutral, PublicKeyToken=null
+Assembly: SCANsat.Unity, Version=1.8.6.0, Culture=neutral, PublicKeyToken=null
 Assembly: KSPSteamCtrlr, Version=0.0.1.35, Culture=neutral, PublicKeyToken=null
-Assembly: Steamworks.NET, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: KerbalAlarmClock, Version=3.8.5.0, Culture=neutral, PublicKeyToken=null
-Assembly: Scale, Version=2.3.7.0, Culture=neutral, PublicKeyToken=null
+Assembly: StageRecovery, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalAlarmClock, Version=3.9.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: Scale, Version=2.3.12.0, Culture=neutral, PublicKeyToken=null
 Assembly: Scale_Redist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: USILifeSupport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: KolonyTools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: WaypointManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: MiniAVC, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
-Assembly: [x] Science!, Version=5.11.6489.36142, Culture=neutral, PublicKeyToken=null
+Assembly: [x] Science!, Version=5.12.6640.39487, Culture=neutral, PublicKeyToken=null
 
-[Exception 15:12:33.3727717]: Object reference not set to an instance of an object
-[]:   at KerbalEngineer.Editor.BuildOverlayResources.OnGUI () [0x00000] in <filename unknown>:0 
+[Log 12:46:05.3028240]: FlightEngineerCore->Awake
+[Log 12:46:07.7704825]: FlightEngineerCore->Start
+[Log 12:46:17.4701551]: FlightEngineerCore->OnDestroy
+[13:05:18.1243375]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.UIControls.PopOutElement.Update () [0x00000] in <filename unknown>:0 
+[]:   at KerbalEngineer.UIControls.PopOutElement.Update () [0x00000] in <filename unknown>:0 
 
-[Exception 15:12:33.3732724]: Object reference not set to an instance of an object
-[]:   at KerbalEngineer.Editor.BuildOverlayResources.OnGUI () [0x00000] in <filename unknown>:0 
-
-[Log 15:12:33.5524578]: BuildAdvanced->OnDestroy
-[Log 15:12:35.0207467]: ActionMenu->Awake
-[Log 15:12:35.0232497]: FlightEngineerCore->Awake
-[Log 15:12:37.1301505]: ActionMenu->Start
-[Log 15:12:37.1678020]: FlightEngineerCore->Start
-[Log 15:12:37.6311065]: GetExperimentBiome(Kerbin, NaN, NaN) died
-[Exception 15:12:37.6311065]: Array index is out of range.
-[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
-  at CBAttributeMapSO.GetPixelColor (Double x, Double y) [0x00000] in <filename unknown>:0 
-  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
-  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
-  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
-
-[Log 15:12:39.2838372]: GetExperimentBiome(Kerbin, NaN, NaN) died
-[Exception 15:12:39.2838372]: Array index is out of range.
-[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
-  at CBAttributeMapSO.GetPixelColor (Double x, Double y) [0x00000] in <filename unknown>:0 
-  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
-  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
-  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
-
-[Log 15:17:30.3320918]: ActionMenu->OnDestroy
-[Log 15:17:30.3400989]: FlightEngineerCore->OnDestroy
+[Log 13:24:23.2143668]: BuildAdvanced->OnDestroy
+[Log 13:24:27.0374166]: ActionMenu->Awake
+[Log 13:24:27.0374166]: FlightEngineerCore->Awake
+[Log 13:24:32.3743138]: ActionMenu->Start
+[Log 13:24:32.3843128]: FlightEngineerCore->Start
+[Log 13:25:06.5064491]: FlightEngineerCore->OnDestroy
+[Log 13:25:06.5444624]: ActionMenu->OnDestroy
+[Log 13:28:58.4443279]: BuildAdvanced->OnDestroy
+[Log 13:29:01.1617179]: ActionMenu->Awake
+[Log 13:29:01.1617179]: FlightEngineerCore->Awake
+[Log 13:29:06.0369046]: ActionMenu->Start
+[Log 13:29:06.0459014]: FlightEngineerCore->Start
+[Log 13:29:38.8920847]: FlightEngineerCore->OnDestroy
+[Log 13:29:38.8960874]: ActionMenu->OnDestroy
+[Log 13:31:34.8499534]: BuildAdvanced->OnDestroy
+[Log 13:31:37.3135881]: ActionMenu->Awake
+[Log 13:31:37.3135881]: FlightEngineerCore->Awake
+[Log 13:31:42.0829138]: ActionMenu->Start
+[Log 13:31:42.0919147]: FlightEngineerCore->Start
+[Log 13:43:01.3018051]: FlightEngineerCore->OnDestroy
+[Log 13:43:01.3037907]: ActionMenu->OnDestroy
+[Log 13:43:03.9828416]: FlightEngineerCore->Awake
+[Log 13:43:06.5592673]: FlightEngineerCore->Start
+[Log 13:43:24.0796758]: FlightEngineerCore->OnDestroy
+[Log 13:43:29.2860345]: DisplayStackTS->OnDestroy
+[Log 13:43:31.9660602]: ActionMenu->Awake
+[Log 13:43:31.9660602]: FlightEngineerCore->Awake
+[Log 13:43:34.7883941]: ActionMenu->Start
+[Log 13:43:34.7993889]: FlightEngineerCore->Start
+[Log 13:52:46.6614939]: ActionMenu->OnDestroy
+[Log 13:52:46.6665023]: FlightEngineerCore->OnDestroy
+[Log 13:52:49.5266253]: FlightEngineerCore->Awake
+[Log 13:52:52.0837236]: FlightEngineerCore->Start
+[Log 13:52:59.9548055]: FlightEngineerCore->OnDestroy
+[Log 13:53:19.8562815]: DisplayStackTS->OnDestroy
+[Log 13:53:20.2671911]: FlightEngineerCore->Awake
+[Log 13:53:21.9687974]: FlightEngineerCore->Start
+[Log 13:53:45.1521678]: FlightEngineerCore->OnDestroy

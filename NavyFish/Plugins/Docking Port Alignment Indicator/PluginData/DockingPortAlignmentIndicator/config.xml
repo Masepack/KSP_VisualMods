@@ -2,10 +2,10 @@
 <config>
     <double name="gui_scale">0.86000001430511475</double>
     <rect name="window_position">
-        <xmin>1303.68994</xmin>
-        <xmax>1647.68994</xmax>
-        <ymin>463.690002</ymin>
-        <ymax>856.710022</ymax>
+        <xmin>1550.68994</xmin>
+        <xmax>1894.68994</xmax>
+        <ymin>450.690002</ymin>
+        <ymax>843.710022</ymax>
     </rect>
     <bool name="drawHudIcon">1</bool>
     <bool name="allowAutoPortTargeting">1</bool>

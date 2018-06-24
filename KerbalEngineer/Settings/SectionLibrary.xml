@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSettingItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SettingItem>
     <Name>StockSections</Name>
@@ -10,6 +10,8 @@
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
         <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -20,24 +22,15 @@
         <Name>ORBITAL</Name>
         <ReadoutModuleNames>
           <string>Orbital.ApoapsisHeight</string>
-          <string>Orbital.PeriapsisHeight</string>
           <string>Orbital.TimeToApoapsis</string>
+          <string>Miscellaneous.Separator</string>
+          <string>Orbital.PeriapsisHeight</string>
           <string>Orbital.TimeToPeriapsis</string>
-          <string>Orbital.Inclination</string>
+          <string>Miscellaneous.Separator</string>
           <string>Orbital.Eccentricity</string>
+          <string>Orbital.Inclination</string>
+          <string>Orbital.OrbitalPeriod</string>
           <string>Orbital.SemiMajorAxis</string>
-          <string>Orbital.AngleToPrograde</string>
-          <string>Orbital.AngleToRetrograde</string>
-          <string>Orbital.NodeProgradeDeltaV</string>
-          <string>Orbital.NodeNormalDeltaV</string>
-          <string>Orbital.NodeRadialDeltaV</string>
-          <string>Orbital.NodeTotalDeltaV</string>
-          <string>Orbital.NodeBurnTime</string>
-          <string>Orbital.NodeHalfBurnTime</string>
-          <string>Orbital.NodeTimeToManoeuvre</string>
-          <string>Orbital.NodeTimeToHalfBurn</string>
-          <string>Orbital.NodeAngleToPrograde</string>
-          <string>Orbital.NodeAngleToRetrograde</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
@@ -47,6 +40,8 @@
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
         <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -56,15 +51,13 @@
         <LineCount>0</LineCount>
         <Name>SURFACE</Name>
         <ReadoutModuleNames>
+          <string>Surface.AltitudeSeaLevel</string>
           <string>Surface.AltitudeTerrain</string>
+          <string>Surface.Biome</string>
+          <string>Miscellaneous.Separator</string>
           <string>Surface.VerticalSpeed</string>
           <string>Surface.HorizontalSpeed</string>
-          <string>Surface.MachNumber</string>
-          <string>Surface.Latitude</string>
-          <string>Surface.Longitude</string>
-          <string>Surface.GeeForce</string>
-          <string>Surface.Biome</string>
-          <string>Surface.Situation</string>
+          <string>Miscellaneous.Separator</string>
           <string>Surface.Slope</string>
           <string>Surface.ImpactTime</string>
           <string>Surface.ImpactBiome</string>
@@ -77,6 +70,8 @@
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
         <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -87,19 +82,18 @@
         <Name>VESSEL</Name>
         <ReadoutModuleNames>
           <string>Vessel.Name</string>
+          <string>Vessel.Mass</string>
+          <string>Miscellaneous.Separator</string>
           <string>Vessel.DeltaVStaged</string>
           <string>Vessel.DeltaVTotal</string>
-          <string>Vessel.Mass</string>
-          <string>Vessel.Thrust</string>
+          <string>Miscellaneous.Separator</string>
           <string>Vessel.ThrustToWeight</string>
-          <string>Vessel.ThrustOffsetAngle</string>
-          <string>Vessel.ThrustTorque</string>
-          <string>Vessel.SurfaceThrustToWeight</string>
           <string>Vessel.Acceleration</string>
+          <string>Miscellaneous.Separator</string>
           <string>Vessel.SuicideBurnDistance</string>
           <string>Vessel.SuicideBurnDeltaV</string>
-          <string>Vessel.IntakeAirUsage</string>
-          <string>Vessel.PartCount</string>
+          <string>Miscellaneous.Separator</string>
+          <string>Vessel.RCSDeltaV</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
@@ -109,6 +103,8 @@
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
         <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -121,28 +117,28 @@
           <string>Rendezvous.TargetSelector</string>
           <string>Rendezvous.PhaseAngle</string>
           <string>Rendezvous.InterceptAngle</string>
-          <string>Rendezvous.RelativeInclination</string>
+          <string>Rendezvous.TimeToTransferAngleTime</string>
+          <string>Rendezvous.Distance</string>
+          <string>Miscellaneous.Separator</string>
           <string>Rendezvous.TimeToRelativeAscendingNode</string>
           <string>Rendezvous.TimeToRelativeDescendingNode</string>
-          <string>Rendezvous.AltitudeSeaLevel</string>
+          <string>Rendezvous.RelativeInclination</string>
+          <string>Miscellaneous.Separator</string>
           <string>Rendezvous.ApoapsisHeight</string>
           <string>Rendezvous.PeriapsisHeight</string>
-          <string>Rendezvous.Distance</string>
+          <string>Rendezvous.OrbitalPeriod</string>
           <string>Rendezvous.SemiMajorAxis</string>
         </ReadoutModuleNames>
       </SectionModule>
-    </Value>
-  </SettingItem>
-  <SettingItem>
-    <Name>CustomSections</Name>
-    <Value xsi:type="ArrayOfSectionModule">
       <SectionModule>
         <Abbreviation>HEAT</Abbreviation>
         <EditorPositionX>710</EditorPositionX>
         <EditorPositionY>350</EditorPositionY>
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
-        <IsCustom>true</IsCustom>
+        <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -173,7 +169,9 @@
         <EditorPositionY>350</EditorPositionY>
         <FloatingPositionX>835</FloatingPositionX>
         <FloatingPositionY>100</FloatingPositionY>
-        <IsCustom>true</IsCustom>
+        <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>false</IsFloating>
         <IsHud>false</IsHud>
@@ -186,59 +184,72 @@
           <string>Body.HighAtmosphereHeight</string>
           <string>Body.LowSpaceHeight</string>
           <string>Body.HighSpaceHeight</string>
+          <string>Body.GeostationaryHeight</string>
+          <string>Body.CurrentSoi</string>
+          <string>Body.BodyRotationPeriod</string>
+          <string>Body.BodyOrbitalPeriod</string>
+          <string>Body.EscapeVelocity</string>
+          <string>Body.BodyGravity</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
         <Abbreviation>HUD 1</Abbreviation>
         <EditorPositionX>710</EditorPositionX>
         <EditorPositionY>350</EditorPositionY>
-        <FloatingPositionX>365</FloatingPositionX>
+        <FloatingPositionX>518.600037</FloatingPositionX>
         <FloatingPositionY>0</FloatingPositionY>
-        <IsCustom>true</IsCustom>
+        <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>true</IsFloating>
         <IsHud>true</IsHud>
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>true</IsVisible>
-        <LineCount>7</LineCount>
+        <LineCount>8</LineCount>
         <Name>HUD 1</Name>
         <ReadoutModuleNames>
           <string>Orbital.ApoapsisHeight</string>
           <string>Orbital.TimeToApoapsis</string>
           <string>Orbital.PeriapsisHeight</string>
           <string>Orbital.TimeToPeriapsis</string>
-          <string>Vessel.DeltaVTotal</string>
-          <string>Orbital.Inclination</string>
+          <string>Miscellaneous.Separator</string>
+          <string>Vessel.DeltaVCurrentTotal</string>
           <string>Vessel.ThrustToWeight</string>
+          <string>Vessel.SurfaceThrustToWeight</string>
+          <string>Vessel.SuicideBurnDistance</string>
         </ReadoutModuleNames>
       </SectionModule>
       <SectionModule>
         <Abbreviation>HUD 2</Abbreviation>
         <EditorPositionX>710</EditorPositionX>
         <EditorPositionY>350</EditorPositionY>
-        <FloatingPositionX>1325</FloatingPositionX>
+        <FloatingPositionX>1229</FloatingPositionX>
         <FloatingPositionY>0</FloatingPositionY>
-        <IsCustom>true</IsCustom>
+        <IsCustom>false</IsCustom>
+        <showEditButton>true</showEditButton>
+        <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
         <IsFloating>true</IsFloating>
         <IsHud>true</IsHud>
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>true</IsVisible>
-        <LineCount>4</LineCount>
+        <LineCount>5</LineCount>
         <Name>HUD 2</Name>
         <ReadoutModuleNames>
           <string>Surface.AltitudeTerrain</string>
           <string>Surface.VerticalSpeed</string>
           <string>Surface.HorizontalSpeed</string>
           <string>Surface.Biome</string>
-          <string>Surface.MachNumber</string>
-          <string>Vessel.SuicideBurnDistance</string>
-          <string>Rendezvous.RelativeInclination</string>
-          <string>Surface.ImpactBiome</string>
+          <string>Surface.Situation</string>
         </ReadoutModuleNames>
       </SectionModule>
     </Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>CustomSections</Name>
+    <Value xsi:type="ArrayOfSectionModule" />
   </SettingItem>
 </ArrayOfSettingItem>

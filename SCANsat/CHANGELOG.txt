@@ -1,3 +1,74 @@
+Version 18.6 - 2018-4-30
+-----------------------
+
+- Update for KSP 1.4.3
+
+- Significant performance imrovement for the background scanning algorithm
+     - Particularly noticeable when many scanners are active and time warp is at maximum
+
+- Reduce garbage allocation
+     - Particularly related to the information shown when the mouse is over a map window
+	 - Also reduced when the Background Scanning tab of the settings window is open
+	 - Fix a bug that caused increased garbage allocation when waypoint icons were turned on for the maps
+	 
+- Some UI related performance improvements
+
+- Fix some typos in science results localization files
+- Fix German language tags in localization files
+- Updates to Chinese translations
+
+Version 18.5 - 2018-3-14
+-----------------------
+
+- Update for KSP 1.4
+
+- Update shaders and asset bundles to Unity 2017
+- Fix a rounding in error in the scanning coverage that was blocking contract offers
+- Anomaly icons show as grey until they are scanned with the BTDT
+
+Version 18.4 - 2018-2-8
+-----------------------
+
+- Performance fixes for scanning coverage check
+
+Version 18.3 - 2018-2-7
+-----------------------
+
+- Complete Portuguese translations
+- Updates to localization files
+	- Parts, manufacturer/flag and contract localization
+	
+- Calculate scanning coverage based on approximation of actual spherical surface area instead of simple rectangular area
+	- Affects contract completion and science data collection
+
+- Fix bugs related to some resources for the big map
+- Fix bugs in Overdrive compatibility
+- Fix long resource and planet names in drop down menus
+
+
+Version 18.2 - 2017-11-22
+-----------------------
+
+- Overhaul of all SCANsat contracts
+     - Contracts now differ based on difficulty
+     - Easy contracts only generate for home system bodies and ask for one scan
+     - Medium and High difficulty contracts generate for non-home system bodies and ask for a group of scans
+     - Contracts have several dependencies
+            - Unlocking the required parts
+            - Not having already finished all of the required scans for the target
+            - Target bodies are selected based on your progression
+
+- Improvements made to slope maps
+     - Slope maps now account for map scale or zoom factor
+     - Significantly improved usefulness for the zoom map
+
+- Fix some potential bugs when survey contract waypoints are updated
+- Fix bug in background scanning toggles in the settings window
+- Some minor UI performance tweaks
+- Add a KSPedia button to the top of the settings window
+     - It will try to open the SCANsat page, but this only works if KSPedia has already been opened at least once
+
+
 Version 18.1 - 2017-10-11
 -----------------------
 
